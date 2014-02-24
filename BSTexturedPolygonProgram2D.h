@@ -12,14 +12,14 @@
 
 class BSTexturedPolygonProgram2D : public BSShaderProgram
 {
-	public:
+public:
 
-    BSTexturedPolygonProgram2D();
+	BSTexturedPolygonProgram2D();
 
-    bool loadProgram();
+	bool loadProgram();
 
-    void loadShaderAttributesLocation(GLint &theAttribute, std::string theShaderAttributeText);
-    void loadShaderUniformsLocation(GLint &theUniform, std::string theShaderUniformText);
+	void loadShaderAttributesLocation(GLint &theAttribute, std::string theShaderAttributeText);
+	void loadShaderUniformsLocation(GLint &theUniform, std::string theShaderUniformText);
 };
 
 

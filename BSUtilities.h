@@ -15,7 +15,7 @@
 
 class BSUtilities
 {
-    public:
+public:
 
 
 	bool loadTheWavFile(char path[], FILE* &fp);
@@ -30,18 +30,18 @@ class BSUtilities
 
 	bool initAL();
 
-    bool initGL();
+	bool initGL();
 
 	bool loadGP();
 
-    bool loadMedia();
+	bool loadMedia();
 	void loadCoinsAndDeaths();
 
-    void update();
+	void update();
 
-    void render();
+	void render();
 
-    void keyboardHandling();
+	void keyboardHandling();
 };
 
 #endif

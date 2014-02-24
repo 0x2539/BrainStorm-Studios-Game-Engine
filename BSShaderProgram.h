@@ -8,27 +8,27 @@
 
 class BSShaderProgram
 {
-	public:
-		BSShaderProgram();
+public:
+	BSShaderProgram();
 
-        virtual ~BSShaderProgram();
+	virtual ~BSShaderProgram();
 
-		virtual bool loadProgram() = 0;
+	virtual bool loadProgram() = 0;
 
-		virtual void freeProgram();
+	virtual void freeProgram();
 
-		bool bind();
+	bool bind();
 
-		void unbind();
+	void unbind();
 
-		GLuint getProgramID();
+	GLuint getProgramID();
 
-	protected:
-		void printProgramLog( GLuint program );
+protected:
+	void printProgramLog(GLuint program);
 
-		void printShaderLog( GLuint shader );
+	void printShaderLog(GLuint shader);
 
-		GLuint loadShaderFromFile( std::string path, GLenum shaderType );
+	GLuint loadShaderFromFile(std::string path, GLenum shaderType);
 
 };
 

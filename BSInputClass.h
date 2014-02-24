@@ -30,7 +30,7 @@ public:
 	void handleKeyboard();
 	void controlGamePad();
 
-    void checkAllCoins();
+	void checkAllCoins();
 
 	void handleMouse();
 

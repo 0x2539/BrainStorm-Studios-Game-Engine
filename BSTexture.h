@@ -34,8 +34,8 @@ public:
 	void addARainDrop(float x, float y, float z, float xPower, float yPower);
 	void renderRainDrops();
 	void resetRainDrops();
-    void renderWormHoles();
-    void checkCollisionsWormHoles();
+	void renderWormHoles();
+	void checkCollisionsWormHoles();
 
 	void renderSomething();
 
@@ -45,7 +45,7 @@ public:
 	void ReinitializeResoultion(float newWidth, float newHeight);
 
 	void renderVboAndVao();
-	void setTheVao( GLuint &theVaoBuffer, BSTexturedVertex2D dataToBind[4], GLuint &theVboToBind, GLuint &theIbotoBind);
+	void setTheVao(GLuint &theVaoBuffer, BSTexturedVertex2D dataToBind[4], GLuint &theVboToBind, GLuint &theIbotoBind);
 
 	void bindVBO(BSTexturedVertex2D dataToBind[4], GLuint &theVboToBind, GLuint &theIbotoBind);
 
@@ -54,7 +54,7 @@ public:
 	void renderChuncksOfObjects(float coordX, float coordY, float coordZ, float ScaleOnX, float ScaleOnY);
 
 	void renderANormalVboAndVaoObject(float coordX, float coorY, GLuint theTextureIdToRender,
-									BSColorRGBA theColorOfObstacle, GLuint theVaoBuffer, float ScaleOnX, float ScaleOnY);
+	                                  BSColorRGBA theColorOfObstacle, GLuint theVaoBuffer, float ScaleOnX, float ScaleOnY);
 
 
 
@@ -85,12 +85,12 @@ public:
 
 	void renderTheSquareObstacles();
 	void renderTheCircleObstacles();
-    void checkBodyScript(BSTheSquareBodies *square, BSTheRoundBodies *round);
+	void checkBodyScript(BSTheSquareBodies *square, BSTheRoundBodies *round);
 
 	void renderOnlyTheTextures();
 
-    void renderDustBodies();
-    void resetDustBodies();
+	void renderDustBodies();
+	void resetDustBodies();
 
 	void renderSelectedSquareObstacle();
 	void renderSelectedRoundObstacle();
@@ -108,27 +108,24 @@ public:
 
 	void getTheAnimation(std::vector<BSAnimation*> theList, BSNewList* listOfCurrentAnimation);
 	void renderAllAnimations();//(BSAnimation* &currentPlayer);
-    void renderBerserk();
+	void renderBerserk();
 	void renderPlayerAnimation();
 	void getTheNextImageForAnimationInTheCycle(std::vector<BSAnimation*> theList,
-												BSAnimation* &theCurrentImage, int nrOfImgs);
+	        BSAnimation* &theCurrentImage, int nrOfImgs);
 	void getTheNextImageForAnimationNOTInTheCycle(std::vector<BSAnimation*> theList1,
-													std::vector<BSAnimation*> theList2,
-													BSAnimation* &theCurrentImage, int nrOfImgs, int i);
+	        std::vector<BSAnimation*> theList2,
+	        BSAnimation* &theCurrentImage, int nrOfImgs, int i);
 
 
 
 	void loadTextures();
 
-    SDL_Surface* load_image( std::string filename );
-    void Load1Texture(SDL_Surface *surface, GLuint &texture);
+	SDL_Surface* load_image(std::string filename);
+	void Load1Texture(SDL_Surface *surface, GLuint &texture);
 
 
 
 	void loadMenuButtonsTexture(int numberOfButtons, std::string pathAndName, GLuint theButtonsTexture[]);
-
-
-	float toRadians(float x);
 
 	void FreeTypeTextRenderer(const char *text, float x, float y, float sx, float sy);
 
@@ -136,7 +133,7 @@ public:
 
 	void initTheFont();
 	void renderMyFont(std::string theStringToRenderString, float xCord, float yCord, float FontSizeX, float FontSizeY,
-						BSColorRGBA color, bool can);
+	                  BSColorRGBA color, bool can);
 
 	bool coinIsInBounds(BSCoins *theCoin);
 	void renderSnowFlakes();
@@ -149,7 +146,7 @@ public:
 	void renderTheCloudyParticles();
 
 	void consoleSalveazaHarta();
-    void salveazaFinishedLevel();
+	void salveazaFinishedLevel();
 
 
 };
