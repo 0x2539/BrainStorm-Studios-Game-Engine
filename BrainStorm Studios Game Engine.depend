@@ -455,3 +455,457 @@
 
 1393242116 c:\users\alexandru\desktop\brainstorm studios\#bss engine\brainstorm studios game engine\bs_mathfunctions.h
 
+1393243554 source:c:\users\alexandru\documents\github\brainstorm-studios-game-engine\bsactionstuff.cpp
+	"BSActionStuff.h"
+
+1393242543 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\bsactionstuff.h
+	<iostream>
+	<fstream>
+	"BSValues.h"
+	"BSObstacles.h"
+	"BSTexture.h"
+	"BSUtilities.h"
+	<Box2D/Box2D.h>
+	<AL/al.h>
+	<AL/alc.h>
+
+1393246464 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\bsvalues.h
+	"BSOpenGL.h"
+	"BSRenderer.h"
+	<vector>
+	<sstream>
+	<unordered_map>
+
+1383930172 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\bsopengl.h
+	"Glew/glew.h"
+	"SDL/SDL_opengl.h"
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdio.h>
+	<AL/al.h>
+	<AL/alc.h>
+	<SDL/SDL.h>
+
+1393238051 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glew\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1393246464 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\bsrenderer.h
+	"BSStructs.h"
+	<SOIL/SOIL.h>
+	<iostream>
+
+1393238150 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\bsstructs.h
+	"glm/glm.hpp"
+	"glm/gtx/transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+	<Box2D/Box2D.h>
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\glm.hpp
+	"core/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cstdio>
+	"core/setup.hpp"
+	"./core/_detail.hpp"
+	"./core/_vectorize.hpp"
+	"./core/type.hpp"
+	"./core/func_trigonometric.hpp"
+	"./core/func_exponential.hpp"
+	"./core/func_common.hpp"
+	"./core/func_packing.hpp"
+	"./core/func_geometric.hpp"
+	"./core/func_matrix.hpp"
+	"./core/func_vector_relational.hpp"
+	"./core/func_integer.hpp"
+	"./core/func_noise.hpp"
+	"./core/_swizzle.hpp"
+
+1361375364 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\_fixes.hpp
+	<cmath>
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\setup.hpp
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1361375364 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\_detail.hpp
+	"setup.hpp"
+	<cassert>
+	<cstdint>
+
+1361375364 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\_vectorize.hpp
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type.hpp
+	"type_half.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_gentype.hpp"
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat2x2.hpp"
+	"type_mat2x3.hpp"
+	"type_mat2x4.hpp"
+	"type_mat3x2.hpp"
+	"type_mat3x3.hpp"
+	"type_mat3x4.hpp"
+	"type_mat4x2.hpp"
+	"type_mat4x3.hpp"
+	"type_mat4x4.hpp"
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_half.hpp
+	<cstdlib>
+	"type_half.inl"
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_half.inl
+	"_detail.hpp"
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_float.hpp
+	"type_half.hpp"
+	"setup.hpp"
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_int.hpp
+	"setup.hpp"
+	"_detail.hpp"
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_gentype.hpp
+	"type_size.hpp"
+
+1361375364 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_size.hpp
+	<cstdlib>
+
+1361375364 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_vec1.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec1.inl"
+
+1361375364 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_vec.hpp
+	"type_gentype.hpp"
+
+1361375364 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\_swizzle.hpp
+	"_swizzle_func.hpp"
+
+1361375364 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\_swizzle_func.hpp
+
+1361375364 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_vec1.inl
+
+1361375364 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_vec2.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec2.inl"
+
+1361375364 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_vec2.inl
+
+1361375364 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_vec3.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec3.inl"
+
+1361375364 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_vec3.inl
+
+1361375364 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_vec4.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec4.inl"
+
+1361375364 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_vec4.inl
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_mat2x2.hpp
+	"type_mat.hpp"
+	"type_mat2x2.inl"
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_mat.hpp
+	"type_gentype.hpp"
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_mat2x2.inl
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_mat2x3.hpp
+	"type_mat.hpp"
+	"type_mat2x3.inl"
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_mat2x3.inl
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_mat2x4.hpp
+	"type_mat.hpp"
+	"type_mat2x4.inl"
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_mat2x4.inl
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_mat3x2.hpp
+	"type_mat.hpp"
+	"type_mat3x2.inl"
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_mat3x2.inl
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_mat3x3.hpp
+	"type_mat.hpp"
+	"type_mat3x3.inl"
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_mat3x3.inl
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_mat3x4.hpp
+	"type_mat.hpp"
+	"type_mat3x4.inl"
+
+1361375364 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_mat3x4.inl
+
+1361375364 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_mat4x2.hpp
+	"type_mat.hpp"
+	"type_mat4x2.inl"
+
+1361375364 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_mat4x2.inl
+
+1361375364 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_mat4x3.hpp
+	"type_mat.hpp"
+	"type_mat4x3.inl"
+
+1361375364 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_mat4x3.inl
+
+1361375364 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_mat4x4.hpp
+	"type_mat.hpp"
+	"type_mat4x4.inl"
+
+1361375364 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\type_mat4x4.inl
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\func_trigonometric.hpp
+	"func_trigonometric.inl"
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\func_trigonometric.inl
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\func_exponential.hpp
+	"func_exponential.inl"
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\func_exponential.inl
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\func_common.hpp
+	"_fixes.hpp"
+	"func_common.inl"
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\func_common.inl
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\func_packing.hpp
+	"func_packing.inl"
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\func_packing.inl
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\func_geometric.hpp
+	"func_geometric.inl"
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\func_geometric.inl
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\func_matrix.hpp
+	"func_matrix.inl"
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\func_matrix.inl
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\func_vector_relational.hpp
+	"_detail.hpp"
+	"func_vector_relational.inl"
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\func_vector_relational.inl
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\func_integer.hpp
+	"func_integer.inl"
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\func_integer.inl
+	<intrin.h>
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\func_noise.hpp
+	"func_noise.inl"
+
+1361375362 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\core\func_noise.inl
+
+1361375366 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\gtx\transform.hpp
+	"../glm.hpp"
+	"../gtc/matrix_transform.hpp"
+	"transform.inl"
+
+1361375364 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\gtc\matrix_transform.hpp
+	"../glm.hpp"
+	"matrix_transform.inl"
+
+1361375364 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\gtc\matrix_transform.inl
+
+1361375366 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\gtx\transform.inl
+
+1361375364 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\gtc\type_ptr.hpp
+	"../glm.hpp"
+	"../gtc/half_float.hpp"
+	"../gtc/quaternion.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1361375364 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\gtc\half_float.hpp
+	"../glm.hpp"
+	"half_float.inl"
+
+1361375364 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\gtc\half_float.inl
+
+1361375364 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\gtc\quaternion.hpp
+	"../glm.hpp"
+	"../gtc/half_float.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1361375364 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\gtc\constants.hpp
+	"../glm.hpp"
+	"../gtc/half_float.hpp"
+	"constants.inl"
+
+1361375364 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\gtc\constants.inl
+
+1361375364 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\gtc\quaternion.inl
+	<limits>
+
+1361375364 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glm\gtc\type_ptr.inl
+
+1393238150 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\bsobstacles.h
+	<iostream>
+	"BSValues.h"
+	"BSAnimationClass.h"
+	"BSXmlFiles.h"
+	<fstream>
+
+1392982798 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\bsanimationclass.h
+	"BSValues.h"
+	"BSRenderer.h"
+
+1392982798 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\bsxmlfiles.h
+	<iostream>
+	"BSValues.h"
+	<fstream>
+
+1393241056 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\bstexture.h
+	"BSOpenGL.h"
+	<stdio.h>
+	<string>
+	"BSValues.h"
+	"BSTexturedPolygonProgram2D.h"
+	<iostream>
+	<fstream>
+	"BSObstacles.h"
+	"BSLevelMenu.h"
+	"BSInputClass.h"
+
+1392982798 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\bstexturedpolygonprogram2d.h
+	"BSShaderProgram.h"
+	"glm/glm.hpp"
+	"glm/gtc/type_ptr.hpp"
+	"glm/gtx/transform.hpp"
+	<iostream>
+	"BSValues.h"
+
+1392982798 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\bsshaderprogram.h
+	"BSOpenGL.h"
+	<stdio.h>
+	<string>
+
+1393238150 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\bslevelmenu.h
+	<iostream>
+	<fstream>
+	"BSValues.h"
+	"BSObstacles.h"
+
+1393238149 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\bsinputclass.h
+	<iostream>
+	<SDL/SDL.h>
+	"BSValues.h"
+	"BSObstacles.h"
+	"BSLevelMenu.h"
+	"BSXmlFiles.h"
+	"BSActionStuff.h"
+	"BSTexture.h"
+
+1392982798 c:\users\alexandru\documents\github\brainstorm-studios-game-engine\bsutilities.h
+	"BSOpenGL.h"
+	<stdio.h>
+	<iostream>
+	"BSValues.h"
+	<fstream>
+	"BSObstacles.h"
+	"BSTexturedPolygonProgram2D.h"
+	"BSTexture.h"
+	"BSLevelMenu.h"
+	"BSXmlFiles.h"
+
+1393243437 source:c:\users\alexandru\documents\github\brainstorm-studios-game-engine\bsanimationclass.cpp
+	"BSAnimationClass.h"
+
+1393242678 source:c:\users\alexandru\documents\github\brainstorm-studios-game-engine\bsinputclass.cpp
+	"BSInputClass.h"
+
+1393243434 source:c:\users\alexandru\documents\github\brainstorm-studios-game-engine\bslevelmenu.cpp
+	"BSLevelMenu.h"
+
+1393246464 source:c:\users\alexandru\documents\github\brainstorm-studios-game-engine\bsobstacles.cpp
+	"BSObstacles.h"
+
+1392982757 source:c:\users\alexandru\documents\github\brainstorm-studios-game-engine\bsshaderprogram.cpp
+	"BSShaderProgram.h"
+	"BSValues.h"
+	<fstream>
+
+1393246464 source:c:\users\alexandru\documents\github\brainstorm-studios-game-engine\bstexture.cpp
+	"BSTexture.h"
+
+1392982757 source:c:\users\alexandru\documents\github\brainstorm-studios-game-engine\bstexturedpolygonprogram2d.cpp
+	"BSTexturedPolygonProgram2D.h"
+
+1393238150 source:c:\users\alexandru\documents\github\brainstorm-studios-game-engine\bsutilities.cpp
+	"BSUtilities.h"
+
+1392982756 source:c:\users\alexandru\documents\github\brainstorm-studios-game-engine\bsxmlfiles.cpp
+	"BSXmlFiles.h"
+
+1361375362 source:c:\users\alexandru\documents\github\brainstorm-studios-game-engine\glew\glew.c
+	"glew.h"
+	<GL/wglew.h>
+	<GL/glxew.h>
+	<dlfcn.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<string.h>
+	<AvailabilityMacros.h>
+	<dlfcn.h>
+	<mach-o/dyld.h>
+
+1393246464 source:c:\users\alexandru\documents\github\brainstorm-studios-game-engine\main.cpp
+	"BSValues.h"
+	"BSUtilities.h"
+	<iostream>
+	<string>
+	<SOIL/SOIL.h>
+	"BSObstacles.h"
+	"BSTexture.h"
+	"BSActionStuff.h"
+	"BSTexturedPolygonProgram2D.h"
+	<ctime>
+	"BSLevelMenu.h"
+	"BSInputClass.h"
+
+1368086584 source:c:\users\alexandru\documents\github\brainstorm-studios-game-engine\resources\resource.rc
+
