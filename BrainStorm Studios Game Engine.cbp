@@ -34,13 +34,13 @@
 		</Compiler>
 		<Linker>
 			<Add option="-lmingw32 -llibxml2 -lSDLmain -lSDL" />
-			<Add library="..\..\Libraries (lib)\libSOIL.a" />
+			<Add library="Libraries (lib)\libSOIL.a" />
 			<Add library="opengl32" />
-			<Add library="..\..\Libraries (lib)\libBox2D.a" />
+			<Add library="Libraries (lib)\libBox2D.a" />
 			<Add library="glu32" />
-			<Add library="..\..\Libraries (lib)\libs OpenAl\Win32\OpenAL32.lib" />
-			<Add directory="../../Libraries (lib)" />
-			<Add directory="../../Libraries (lib)/libs OpenAl/Win32" />
+			<Add library="Libraries (lib)\libs OpenAl\Win32\OpenAL32.lib" />
+			<Add directory="Libraries (lib)" />
+			<Add directory="Libraries (lib)/libs OpenAl/Win32" />
 		</Linker>
 		<Unit filename="BSActionStuff.cpp" />
 		<Unit filename="BSActionStuff.h" />
