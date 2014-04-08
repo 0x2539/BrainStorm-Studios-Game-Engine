@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <string name="app_name">Super_ultra_mega_app</string>
-    <string name="hello_world">Hello worlds!</string>
-    <string name="action_settings">Settings</string>
-    <string name="title_activity_second_activity">Second_activity</string>
-
-</resources>

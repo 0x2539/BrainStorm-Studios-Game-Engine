@@ -1,0 +1,6 @@
+#ifndef BS_SHADER_H_INCLUDED
+#define BS_SHADER_H_INCLUDED
+
+
+
+#endif // BS_SHADER_H_INCLUDED
