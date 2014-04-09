@@ -1,3 +1,4 @@
+#pragma once
 #ifndef XMLFILES_H_INCLUDED
 #define XMLFILES_H_INCLUDED
 
@@ -7,14 +8,14 @@
 
 struct BSAttribute
 {
-	std::string name, value;
+    std::string name, value;
 };
 
 struct BSNodeXml
 {
-	///std::vector<BSAttribute> attributes;
-	std::string name;///, value;
-	bool checked;
+    ///std::vector<BSAttribute> attributes;
+    std::string name;///, value;
+    bool checked;
 };
 
 
@@ -28,10 +29,7 @@ public:
 	bool checkIfNodeIsWanted(std::string node, std::vector<std::string> theNodes);
 
 	bool readAnyXML(std::string fileName, std::string headNode, std::string secondNode, std::vector<std::string> theNodes,
-	                std::vector<std::string> theAttributes, std::vector<ListaDeCaractere*> &theNodeValues, std::vector<std::string> &headAttributesValues);
-
-	bool writeAnyXML(std::string fileName, std::string headNode, std::string secondNode, std::vector<std::string> nodesNames,
-	                 std::vector<ListaDeCaractere*>nodesValues, std::vector<std::string> attributesNames, std::vector<std::string> attributesValues);
+			std::vector<std::string> theAttributes, std::vector<ListaDeCaractere*> &theNodeValues, std::vector<std::string> &headAttributesValues);
 
 	/*void readAnyXML(std::string docnameString, std::string headNodeString, std::string secondNodeString,
 					ListaDeCaractere *theNodeValues[], char theNodes[][100],

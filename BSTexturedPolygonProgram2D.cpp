@@ -4,90 +4,115 @@ BSTexturedPolygonProgram2D::BSTexturedPolygonProgram2D()
 {
 }
 
-bool BSTexturedPolygonProgram2D::loadProgram()
+GLint BSTexturedPolygonProgram2D::get_location_from_shader(std::string _name)
+{
+    return locations_shader_values[_name];
+}
+
+void BSTexturedPolygonProgram2D::set_uniform(std::string _value_shader_name, float _value)
+{
+	glUniform1f(locations_shader_values[_value_shader_name], _value);
+}
+
+void BSTexturedPolygonProgram2D::set_uniform(std::string _value_shader_name, float _value1, float _value2)
+{
+	glUniform2f(locations_shader_values[_value_shader_name], _value1, _value2);
+}
+
+void BSTexturedPolygonProgram2D::set_uniform(std::string _value_shader_name, float _value1, float _value2, float _value3)
+{
+	glUniform3f(locations_shader_values[_value_shader_name], _value1, _value2, _value3);
+}
+
+void BSTexturedPolygonProgram2D::set_uniform(std::string _value_shader_name, float _value1, float _value2, float _value3, float _value4)
+{
+	glUniform4f(locations_shader_values[_value_shader_name], _value1, _value2, _value3, _value4);
+}
+
+bool BSTexturedPolygonProgram2D::loadProgram(std::string _path_vertex_shader, std::string _path_fragment_shader)
 {
 	//Generate program
 	BSProgramID = glCreateProgram();
 
 	//Load vertex shader
-	GLuint vertexShader = loadShaderFromFile("Shaders/BSTexturedPolygonProgram2D.glvs", GL_VERTEX_SHADER);
+	GLuint vertexShader = loadShaderFromFile( _path_vertex_shader, GL_VERTEX_SHADER );
 
-	//Check for errors
-	if(vertexShader == 0)
-	{
-		glDeleteProgram(BSProgramID);
-		BSProgramID = 0;
-		return false;
-	}
+    //Check for errors
+    if( vertexShader == 0 )
+    {
+        glDeleteProgram( BSProgramID );
+        BSProgramID = 0;
+        return false;
+    }
 
 	//Attach vertex shader to program
-	glAttachShader(BSProgramID, vertexShader);
+	glAttachShader( BSProgramID, vertexShader );
 
 	//Create fragment shader
-	GLuint fragmentShader = loadShaderFromFile("Shaders/BSTexturedPolygonProgram2D.glfs", GL_FRAGMENT_SHADER);
+	GLuint fragmentShader = loadShaderFromFile( _path_fragment_shader, GL_FRAGMENT_SHADER );
 
-	//Check for errors
-	if(fragmentShader == 0)
-	{
-		glDeleteProgram(BSProgramID);
-		BSProgramID = 0;
-		return false;
-	}
+    //Check for errors
+    if( fragmentShader == 0 )
+    {
+        glDeleteProgram( BSProgramID );
+        BSProgramID = 0;
+        return false;
+    }
 
 	//Attach fragment shader to program
-	glAttachShader(BSProgramID, fragmentShader);
+	glAttachShader( BSProgramID, fragmentShader );
 
 	//Link program
-	glLinkProgram(BSProgramID);
+    glLinkProgram( BSProgramID );
 
 	//Check for errors
 	GLint programSuccess = GL_TRUE;
-	glGetProgramiv(BSProgramID, GL_LINK_STATUS, &programSuccess);
-	if(programSuccess != GL_TRUE)
-	{
-		printf("Error linking program %d!\n", BSProgramID);
-		printProgramLog(BSProgramID);
-		glDeleteProgram(BSProgramID);
-		BSProgramID = 0;
-		return false;
-	}
+	glGetProgramiv( BSProgramID, GL_LINK_STATUS, &programSuccess );
+	if( programSuccess != GL_TRUE )
+    {
+		printf( "Error linking program %d!\n", BSProgramID );
+		printProgramLog( BSProgramID );
+        glDeleteProgram( BSProgramID );
+        BSProgramID = 0;
+        return false;
+    }
 
-	loadShaderAttributesLocation(locationBSVertexPosition3D, "BSVertexPosition3D");
-	loadShaderAttributesLocation(locationBSTextureCoordinate, "BSTextureCoordinates");
+	load_Shader_Attributes_Location(BS_Available_Shaders::vertex_position());
+	load_Shader_Attributes_Location(BS_Available_Shaders::texture_coordinates());
 
-	loadShaderUniformsLocation(ShaderScaleSize, "ScaleSize");
+    load_Shader_Uniforms_Location(BS_Available_Shaders::scale_size());
 
-	loadShaderUniformsLocation(ShaderFlake, "isFlake");
-	loadShaderUniformsLocation(ShaderIsCircle, "isCircle");
-	loadShaderUniformsLocation(ShaderDark, "isDark");
+    load_Shader_Uniforms_Location(BS_Available_Shaders::is_flake());
+    load_Shader_Uniforms_Location(BS_Available_Shaders::is_circle());
+    load_Shader_Uniforms_Location(BS_Available_Shaders::is_dark());
 
-	loadShaderUniformsLocation(ShaderCircleRadius, "CircleRadius");
+    load_Shader_Uniforms_Location(BS_Available_Shaders::circle_radius());
 
-	loadShaderUniformsLocation(locationBSTextureColor, "BSTextureColor");
-	loadShaderUniformsLocation(locationBSTextureUnit, "BSTextureUnit");
+    load_Shader_Uniforms_Location(BS_Available_Shaders::texture_color());
+    load_Shader_Uniforms_Location(BS_Available_Shaders::texture_unit());
 
-	loadShaderUniformsLocation(locationBSProjectionMatrix, "BSProjectionMatrix");
-	loadShaderUniformsLocation(locationBSModelViewMatrix, "BSModelViewMatrix");
+    load_Shader_Uniforms_Location(BS_Available_Shaders::projection_matrix());
+    load_Shader_Uniforms_Location(BS_Available_Shaders::model_view_matrix());
 
 	return true;
 }
 
 
 
-void BSTexturedPolygonProgram2D::loadShaderAttributesLocation(GLint &theAttribute, std::string theShaderAttributeText)
+void BSTexturedPolygonProgram2D::load_Shader_Attributes_Location(std::string theShaderAttributeText)
 {
-	theAttribute = glGetAttribLocation(BSProgramID, theShaderAttributeText.c_str());
-	if(theAttribute == -1)
+	locations_shader_values[theShaderAttributeText] = glGetAttribLocation( BSProgramID, theShaderAttributeText.c_str() );
+	if( locations_shader_values[theShaderAttributeText] == -1 )
 	{
-		printf("%s is not a valid glsl program variable (attribute, maybe not used)!\n", theShaderAttributeText.c_str());
+		printf( "%s is not a valid glsl program variable (attribute, maybe not used)!\n", theShaderAttributeText.c_str() );
 	}
 }
 
-void BSTexturedPolygonProgram2D::loadShaderUniformsLocation(GLint &theUniform, std::string theShaderUniformText)
+void BSTexturedPolygonProgram2D::load_Shader_Uniforms_Location(std::string theShaderUniformText)
 {
-	theUniform = glGetUniformLocation(BSProgramID, theShaderUniformText.c_str());
-	if(theUniform == -1)
+	locations_shader_values[theShaderUniformText] = glGetUniformLocation( BSProgramID, theShaderUniformText.c_str() );
+	if( locations_shader_values[theShaderUniformText] == -1 )
 	{
-		printf("%s is not a valid glsl program variable (uniform, maybe not used)!\n", theShaderUniformText.c_str());
+		printf( "%s is not a valid glsl program variable (uniform, maybe not used)!\n", theShaderUniformText.c_str() );
 	}
 }

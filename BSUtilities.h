@@ -1,3 +1,4 @@
+#pragma once
 #ifndef BSUTILITIES_H
 #define BSUTILITIES_H
 
@@ -15,33 +16,20 @@
 
 class BSUtilities
 {
-public:
+    public:
 
-
-	bool loadTheWavFile(char path[], FILE* &fp);
-
-	bool createOpenAlContext();
-
-	bool isPlaying(ALuint theSource);
-
-	bool openTheWavfile(std::string path, ALuint &sourceOfSound, ALuint &bufferOfSound);
-
-
-
-	bool initAL();
-
-	bool initGL();
+    bool initGL();
 
 	bool loadGP();
 
-	bool loadMedia();
+    bool loadMedia();
 	void loadCoinsAndDeaths();
 
-	void update();
+    void update();
 
-	void render();
+    void render();
 
-	void keyboardHandling();
+    void keyboardHandling();
 };
 
 #endif

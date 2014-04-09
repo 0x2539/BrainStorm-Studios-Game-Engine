@@ -1,3 +1,4 @@
+#pragma once
 #ifndef LEVELMENU_H_INCLUDED
 #define LEVELMENU_H_INCLUDED
 
@@ -11,7 +12,7 @@ class BSLevelMenu
 public:
 
 	void loadLevels(std::string chapterName, ChapterLevelsStructure* theLevelsToAdd[],
-	                int nrOfLevels, int chapterIndex);
+					int nrOfLevels, int chapterIndex);
 
 	void loadChapters();
 	void loadUserData();

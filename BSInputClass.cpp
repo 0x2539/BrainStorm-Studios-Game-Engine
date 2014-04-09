@@ -15,7 +15,7 @@ BSXmlFiles *objClassXml = new BSXmlFiles();
 BSActionStuff *objClassAction = new BSActionStuff();
 
 bool jumpPressed = false, enterPressed = false, escapePressed = false,
-     backspacePressed = false, speedChangedBoostHigh = false;
+	backspacePressed = false, speedChangedBoostHigh = false;
 bool pressedKeys[256];
 bool pressedGamePadButtons[50];
 bool pressedHats[5], canRefreshGame = false;
@@ -28,28 +28,28 @@ BSInputClass::BSInputClass()
 void BSInputClass::setTheVideoDisplayAndWindow()
 {
 	//This will make possible the use of std::cout
-	freopen("CON", "w", stdout);
-	freopen("CON", "w", stderr);
+	freopen( "CON", "w", stdout );
+	freopen( "CON", "w", stderr );
 
-	if(SDL_Init(SDL_INIT_EVERYTHING) < 0)
+	if (SDL_Init( SDL_INIT_EVERYTHING ) < 0)
 	{
-		std::cout << "Couldn't initialize SDL: " << SDL_GetError() << '\n';
+		std::cout<<"Couldn't initialize SDL: "<<SDL_GetError()<<'\n';
 	}
 
-	SDL_EnableUNICODE(1);
+	SDL_EnableUNICODE( 1 );
 	SDL_EnableKeyRepeat(0, 0);
 	if(!isFullScreen)
 	{
-		SDL_SetVideoMode(SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_BPP, SDL_OPENGL); // | SDL_FULLSCREEN);
+	    SDL_SetVideoMode( SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_BPP, SDL_OPENGL);// | SDL_FULLSCREEN);
 	}
 	else
-	{
-		SDL_SetVideoMode(SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_BPP, SDL_OPENGL | SDL_FULLSCREEN);
-	}
+    {
+	    SDL_SetVideoMode( SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_BPP, SDL_OPENGL | SDL_FULLSCREEN);
+    }
 
-	cross_platform_scale = (float)SCREEN_HEIGHT / 19;
+    cross_platform_scale = (float)SCREEN_HEIGHT / 19;
 
-	SDL_WM_SetCaption("BrainStorm Studios Game Engine", NULL);
+	SDL_WM_SetCaption( "BrainStorm Studios Game Engine", NULL );
 
 //	SDL_ShowCursor(SDL_DISABLE);
 }
@@ -72,36 +72,16 @@ void BSInputClass::initGamePad()
 	std::vector<ListaDeCaractere*> levelDetails;
 	std::vector<std::string> levelDetailsAttributes;
 
-	theNodes.push_back("gamepad_or_keyboard");
-	theNodes.push_back("gamepad_index");
-	theNodes.push_back("left_player");
-	theNodes.push_back("right_player");
-	theNodes.push_back("up_player");
-	theNodes.push_back("down_player");
-	theNodes.push_back("left_mouse");
-	theNodes.push_back("right_mouse");
-	theNodes.push_back("up_mouse");
-	theNodes.push_back("down_mouse");
-	theNodes.push_back("jump");
-	theNodes.push_back("run");
-	theNodes.push_back("teleport");
-	theNodes.push_back("pause");
-	theNodes.push_back("enter");
+	theNodes.push_back("gamepad_or_keyboard"); theNodes.push_back("gamepad_index");
+	theNodes.push_back("left_player"); theNodes.push_back("right_player"); theNodes.push_back("up_player"); theNodes.push_back("down_player");
+	theNodes.push_back("left_mouse"); theNodes.push_back("right_mouse"); theNodes.push_back("up_mouse"); theNodes.push_back("down_mouse");
+	theNodes.push_back("jump"); theNodes.push_back("run"); theNodes.push_back("teleport"); theNodes.push_back("pause"); theNodes.push_back("enter");
 
 	theAttributes.push_back("nrOfGamepads");
 	theAttributes.push_back("type1");
-	theAttributes.push_back("type2");
-	theAttributes.push_back("type3");
-	theAttributes.push_back("type4");
-	theAttributes.push_back("type5");
-	theAttributes.push_back("type6");
-	theAttributes.push_back("type7");
-	theAttributes.push_back("type8");
-	theAttributes.push_back("type9");
-	theAttributes.push_back("type10");
-	theAttributes.push_back("type11");
-	theAttributes.push_back("type12");
-	theAttributes.push_back("type13");
+	theAttributes.push_back("type2"); theAttributes.push_back("type3"); theAttributes.push_back("type4"); theAttributes.push_back("type5");
+	theAttributes.push_back("type6"); theAttributes.push_back("type7"); theAttributes.push_back("type8"); theAttributes.push_back("type9");
+	theAttributes.push_back("type10"); theAttributes.push_back("type11"); theAttributes.push_back("type12"); theAttributes.push_back("type13");
 
 	objClassXml->readAnyXML("Controllers/controllers.xml", "the_controllers", "controller", theNodes, theAttributes, levelDetails, levelDetailsAttributes);
 
@@ -150,7 +130,7 @@ void BSInputClass::getButtonsState(int gamePadIndex, SDL_Joystick *theJoystick)
 		///See on which hat is pressing
 		if(event.type == SDL_JOYHATMOTION)
 		{
-			if(event.jhat.value & SDL_HAT_UP)
+			if ( event.jhat.value & SDL_HAT_UP )
 			{
 				//theGamepads[gamePadIndex]->upHat = true;
 			}
@@ -159,7 +139,7 @@ void BSInputClass::getButtonsState(int gamePadIndex, SDL_Joystick *theJoystick)
 				//theGamepads[gamePadIndex]->upHat = false;
 			}
 
-			if(event.jhat.value & SDL_HAT_DOWN)
+			if ( event.jhat.value & SDL_HAT_DOWN )
 			{
 				//theGamepads[gamePadIndex]->downHat = true;
 			}
@@ -168,7 +148,7 @@ void BSInputClass::getButtonsState(int gamePadIndex, SDL_Joystick *theJoystick)
 				//theGamepads[gamePadIndex]->downHat = false;
 			}
 
-			if(event.jhat.value & SDL_HAT_LEFT)
+			if ( event.jhat.value & SDL_HAT_LEFT )
 			{
 				//theGamepads[gamePadIndex]->leftHat = true;
 			}
@@ -177,7 +157,7 @@ void BSInputClass::getButtonsState(int gamePadIndex, SDL_Joystick *theJoystick)
 				//theGamepads[gamePadIndex]->leftHat = false;
 			}
 
-			if(event.jhat.value & SDL_HAT_RIGHT)
+			if ( event.jhat.value & SDL_HAT_RIGHT )
 			{
 				//theGamepads[gamePadIndex]->rightHat = true;
 			}
@@ -196,10 +176,10 @@ void BSInputClass::getButtonsState(int gamePadIndex, SDL_Joystick *theJoystick)
 			mouseTexture->yCord += CameraPosition->yCord - CameraExtremeDown;
 
 			///Daca jucatorul e in partea din stanga a ecranului
-			if(heroPosition <= CameraExtremeLeft && mouseTexture->xCord >= mouseTexture->width &&
-			        mouseTexture->xCord <= SCREEN_WIDTH / scaleSize - mouseTexture->width)
+			if (heroPosition <= CameraExtremeLeft && mouseTexture->xCord >= mouseTexture->width &&
+					mouseTexture->xCord <= SCREEN_WIDTH / scaleSize - mouseTexture->width)
 			{
-				mouseTexture->xCord += SDL_JoystickGetAxis(theGamepads[0]->joystick, 0) / 32768.f * 1 / 4.f;
+				mouseTexture->xCord += SDL_JoystickGetAxis(theGamepads[0]->joystick, 0) / 32768.f * 1/4.f;
 
 				///Daca a depasit limita, il aduc intre boundaries
 				if(mouseTexture->xCord > SCREEN_WIDTH / scaleSize - mouseTexture->width)
@@ -214,10 +194,10 @@ void BSInputClass::getButtonsState(int gamePadIndex, SDL_Joystick *theJoystick)
 			}
 			else
 				if(heroPosition > CameraExtremeLeft && heroPosition <= CameraExtremeRight &&
-				        mouseTexture->xCord >= heroPosition - CameraExtremeLeft + mouseTexture->width &&
-				        mouseTexture->xCord <= heroPosition + CameraExtremeLeft - mouseTexture->width)
+						mouseTexture->xCord >= heroPosition - CameraExtremeLeft + mouseTexture->width &&
+						mouseTexture->xCord <= heroPosition + CameraExtremeLeft - mouseTexture->width)
 				{
-					mouseTexture->xCord += SDL_JoystickGetAxis(theGamepads[0]->joystick, 0) / 32768.f * 1 / 4.f;
+					mouseTexture->xCord += SDL_JoystickGetAxis(theGamepads[0]->joystick, 0) / 32768.f * 1/4.f;
 
 					///Daca a depasit limita, il aduc intre boundaries
 					if(mouseTexture->xCord > heroPosition + CameraExtremeLeft - mouseTexture->width)
@@ -232,10 +212,10 @@ void BSInputClass::getButtonsState(int gamePadIndex, SDL_Joystick *theJoystick)
 				}
 				else
 					if(heroPosition > CameraExtremeRight &&
-					        mouseTexture->xCord >= CameraExtremeRight - SCREEN_WIDTH / scaleSize / 2.f + mouseTexture->width &&
-					        mouseTexture->xCord <= CameraExtremeRight + SCREEN_WIDTH / scaleSize / 2.f - mouseTexture->width)
+							mouseTexture->xCord >= CameraExtremeRight - SCREEN_WIDTH / scaleSize / 2.f + mouseTexture->width &&
+							mouseTexture->xCord <= CameraExtremeRight + SCREEN_WIDTH / scaleSize / 2.f - mouseTexture->width)
 					{
-						mouseTexture->xCord += SDL_JoystickGetAxis(theGamepads[0]->joystick, 0) / 32768.f * 1 / 4.f;
+						mouseTexture->xCord += SDL_JoystickGetAxis(theGamepads[0]->joystick, 0) / 32768.f * 1/4.f;
 
 						///Daca a depasit limita, il aduc intre boundaries
 						if(mouseTexture->xCord > CameraExtremeRight + SCREEN_WIDTH / scaleSize / 2.f - mouseTexture->width)
@@ -262,10 +242,10 @@ void BSInputClass::getButtonsState(int gamePadIndex, SDL_Joystick *theJoystick)
 		mouseTexture->yCord += CameraPosition->yCord - CameraExtremeDown;
 
 		///Daca jucatorul e in partea din stanga a ecranului
-		if(heroPosition <= CameraExtremeDown && mouseTexture->yCord >= mouseTexture->height &&
-		        mouseTexture->yCord <= SCREEN_HEIGHT / scaleSize - mouseTexture->height)
+		if (heroPosition <= CameraExtremeDown && mouseTexture->yCord >= mouseTexture->height &&
+				mouseTexture->yCord <= SCREEN_HEIGHT / scaleSize - mouseTexture->height)
 		{
-			mouseTexture->yCord -= SDL_JoystickGetAxis(theGamepads[0]->joystick, 1) / 32768.f * 1 / 4.f;
+			mouseTexture->yCord -= SDL_JoystickGetAxis(theGamepads[0]->joystick, 1) / 32768.f * 1/4.f;
 
 			///Daca a depasit limita, il aduc intre boundaries
 			if(mouseTexture->yCord > SCREEN_HEIGHT / scaleSize - mouseTexture->height)
@@ -280,10 +260,10 @@ void BSInputClass::getButtonsState(int gamePadIndex, SDL_Joystick *theJoystick)
 		}
 		else
 			if(heroPosition > CameraExtremeDown && heroPosition <= CameraExtremeUp &&
-			        mouseTexture->yCord >= heroPosition - CameraExtremeLeft + mouseTexture->height &&
-			        mouseTexture->yCord <= heroPosition + CameraExtremeLeft - mouseTexture->height)
+					mouseTexture->yCord >= heroPosition - CameraExtremeLeft + mouseTexture->height &&
+					mouseTexture->yCord <= heroPosition + CameraExtremeLeft - mouseTexture->height)
 			{
-				mouseTexture->yCord -= SDL_JoystickGetAxis(theGamepads[0]->joystick, 1) / 32768.f * 1 / 4.f;
+				mouseTexture->yCord -= SDL_JoystickGetAxis(theGamepads[0]->joystick, 1) / 32768.f * 1/4.f;
 
 				///Daca a depasit limita, il aduc intre boundaries
 				if(mouseTexture->yCord > heroPosition + CameraExtremeDown - mouseTexture->height)
@@ -298,10 +278,10 @@ void BSInputClass::getButtonsState(int gamePadIndex, SDL_Joystick *theJoystick)
 			}
 			else
 				if(heroPosition > CameraExtremeUp &&
-				        mouseTexture->yCord >= CameraExtremeUp - SCREEN_HEIGHT / scaleSize / 2.f + mouseTexture->height &&
-				        mouseTexture->yCord <= CameraExtremeUp + SCREEN_HEIGHT / scaleSize / 2.f - mouseTexture->height)
+						mouseTexture->yCord >= CameraExtremeUp - SCREEN_HEIGHT / scaleSize / 2.f + mouseTexture->height &&
+						mouseTexture->yCord <= CameraExtremeUp + SCREEN_HEIGHT / scaleSize / 2.f - mouseTexture->height)
 				{
-					mouseTexture->yCord -= SDL_JoystickGetAxis(theGamepads[0]->joystick, 1) / 32768.f * 1 / 4.f;
+					mouseTexture->yCord -= SDL_JoystickGetAxis(theGamepads[0]->joystick, 1) / 32768.f * 1/4.f;
 
 					///Daca a depasit limita, il aduc intre boundaries
 					if(mouseTexture->yCord > CameraExtremeUp + SCREEN_HEIGHT / scaleSize / 2.f - mouseTexture->height)
@@ -319,29 +299,29 @@ void BSInputClass::getButtonsState(int gamePadIndex, SDL_Joystick *theJoystick)
 		mouseTexture->yCord -= CameraPosition->yCord - CameraExtremeDown;
 	}
 
-	if(event.jaxis.axis == 2)
+	if( event.jaxis.axis == 2)
 	{
 		if(event.jaxis.value < 0)
 		{
-			std::cout << "right stick: left" << '\n';
+			std::cout<<"right stick: left"<<'\n';
 		}
 		else
 			if(event.jaxis.value > 0)
 			{
-				std::cout << "right stick: right" << '\n';
+				std::cout<<"right stick: right"<<'\n';
 			}
 	}
 
-	if(event.jaxis.axis == 3)
+	if( event.jaxis.axis == 3)
 	{
 		if(event.jaxis.value < 0)
 		{
-			std::cout << "right stick: up" << '\n';
+			std::cout<<"right stick: up"<<'\n';
 		}
 		else
 			if(event.jaxis.value > 0)
 			{
-				std::cout << "right stick: down" << '\n';
+				std::cout<<"right stick: down"<<'\n';
 			}
 	}
 
@@ -365,8 +345,8 @@ void BSInputClass::controlTeleportKeyboard()
 		mouseTexture->yCord += CameraPosition->yCord - CameraExtremeDown;
 
 		///Daca jucatorul e in partea din stanga a ecranului
-		if(heroPosition <= CameraExtremeLeft && mouseTexture->xCord >= mouseTexture->width &&
-		        mouseTexture->xCord <= SCREEN_WIDTH / scaleSize - mouseTexture->width)
+		if (heroPosition <= CameraExtremeLeft && mouseTexture->xCord >= mouseTexture->width &&
+				mouseTexture->xCord <= SCREEN_WIDTH / scaleSize - mouseTexture->width)
 		{
 			if(keystates[SDLK_KP4] || keystates[SDLK_4])
 			{
@@ -391,8 +371,8 @@ void BSInputClass::controlTeleportKeyboard()
 		}
 		else
 			if(heroPosition > CameraExtremeLeft && heroPosition <= CameraExtremeRight &&
-			        mouseTexture->xCord >= heroPosition - CameraExtremeLeft + mouseTexture->width &&
-			        mouseTexture->xCord <= heroPosition + CameraExtremeLeft - mouseTexture->width)
+					mouseTexture->xCord >= heroPosition - CameraExtremeLeft + mouseTexture->width &&
+					mouseTexture->xCord <= heroPosition + CameraExtremeLeft - mouseTexture->width)
 			{
 				if(keystates[SDLK_KP4] || keystates[SDLK_4])
 				{
@@ -417,8 +397,8 @@ void BSInputClass::controlTeleportKeyboard()
 			}
 			else
 				if(heroPosition > CameraExtremeRight &&
-				        mouseTexture->xCord >= CameraExtremeRight - SCREEN_WIDTH / scaleSize / 2.f + mouseTexture->width &&
-				        mouseTexture->xCord <= CameraExtremeRight + SCREEN_WIDTH / scaleSize / 2.f - mouseTexture->width)
+						mouseTexture->xCord >= CameraExtremeRight - SCREEN_WIDTH / scaleSize / 2.f + mouseTexture->width &&
+						mouseTexture->xCord <= CameraExtremeRight + SCREEN_WIDTH / scaleSize / 2.f - mouseTexture->width)
 				{
 					if(keystates[SDLK_KP4] || keystates[SDLK_4])
 					{
@@ -454,8 +434,8 @@ void BSInputClass::controlTeleportKeyboard()
 		mouseTexture->yCord += CameraPosition->yCord - CameraExtremeDown;
 
 		///Daca jucatorul e in partea din stanga a ecranului
-		if(heroPosition <= CameraExtremeDown && mouseTexture->yCord >= mouseTexture->height &&
-		        mouseTexture->yCord <= SCREEN_HEIGHT / scaleSize - mouseTexture->height)
+		if (heroPosition <= CameraExtremeDown && mouseTexture->yCord >= mouseTexture->height &&
+				mouseTexture->yCord <= SCREEN_HEIGHT / scaleSize - mouseTexture->height)
 		{
 			if(keystates[SDLK_KP2] || keystates[SDLK_2])
 			{
@@ -480,8 +460,8 @@ void BSInputClass::controlTeleportKeyboard()
 		}
 		else
 			if(heroPosition > CameraExtremeDown && heroPosition <= CameraExtremeUp &&
-			        mouseTexture->yCord >= heroPosition - CameraExtremeLeft + mouseTexture->height &&
-			        mouseTexture->yCord <= heroPosition + CameraExtremeLeft - mouseTexture->height)
+					mouseTexture->yCord >= heroPosition - CameraExtremeLeft + mouseTexture->height &&
+					mouseTexture->yCord <= heroPosition + CameraExtremeLeft - mouseTexture->height)
 			{
 				if(keystates[SDLK_KP2] || keystates[SDLK_2])
 				{
@@ -506,8 +486,8 @@ void BSInputClass::controlTeleportKeyboard()
 			}
 			else
 				if(heroPosition > CameraExtremeUp &&
-				        mouseTexture->yCord >= CameraExtremeUp - SCREEN_HEIGHT / scaleSize / 2.f + mouseTexture->height &&
-				        mouseTexture->yCord <= CameraExtremeUp + SCREEN_HEIGHT / scaleSize / 2.f - mouseTexture->height)
+						mouseTexture->yCord >= CameraExtremeUp - SCREEN_HEIGHT / scaleSize / 2.f + mouseTexture->height &&
+						mouseTexture->yCord <= CameraExtremeUp + SCREEN_HEIGHT / scaleSize / 2.f - mouseTexture->height)
 				{
 					if(keystates[SDLK_KP2] || keystates[SDLK_2])
 					{
@@ -541,52 +521,52 @@ void BSInputClass::getKeyboardState()
 	controlTeleportKeyboard();
 
 	if(keystates[SDLK_z] && !pressedKeys[SDLK_z])
-	{
-		if(gravityIsChanging == 0)
-		{
-			gravityIsChanging = 1;
-			startAngle = worldAngle;
-		}
-		else
-			if(gravityIsChanging == -1)
-			{
-				gravityIsChanging = 1;
-				startAngle -= 90;
-			}
+    {
+        if(gravityIsChanging == 0)
+        {
+            gravityIsChanging = 1;
+            startAngle = worldAngle;
+        }
+        else
+            if(gravityIsChanging == -1)
+            {
+                gravityIsChanging = 1;
+                startAngle -= 90;
+            }
 
-		pressedKeys[SDLK_z] = true;
-	}
+        pressedKeys[SDLK_z] = true;
+    }
 
 	if(keystates[SDLK_x] && !pressedKeys[SDLK_x])
-	{
-		if(gravityIsChanging == 0)
-		{
-			gravityIsChanging = -1;
-			startAngle = worldAngle;
-		}
-		else
-			if(gravityIsChanging == 1)
-			{
-				gravityIsChanging = -1;
-				startAngle += 90;
-			}
+    {
+        if(gravityIsChanging == 0)
+        {
+            gravityIsChanging = -1;
+            startAngle = worldAngle;
+        }
+        else
+            if(gravityIsChanging == 1)
+            {
+                gravityIsChanging = -1;
+                startAngle += 90;
+            }
 
-		pressedKeys[SDLK_x] = true;
-	}
+        pressedKeys[SDLK_x] = true;
+    }
 
-	if(keystates[SDLK_PAGEUP])
-	{
-		CameraPosition->zCord++;
-		scaleSize = CameraPosition->zCord;
-		std::cout << scaleSize << '\n';
-	}
-	else
-		if(keystates[SDLK_PAGEDOWN])
-		{
-			CameraPosition->zCord--;
-			scaleSize = CameraPosition->zCord;
-			std::cout << scaleSize << '\n';
-		}
+    if(keystates[SDLK_PAGEUP])
+    {
+        CameraPosition->zCord++;
+        scaleSize = CameraPosition->zCord;
+        std::cout<<scaleSize<<'\n';
+    }
+    else
+        if(keystates[SDLK_PAGEDOWN])
+        {
+            CameraPosition->zCord--;
+            scaleSize = CameraPosition->zCord;
+            std::cout<<scaleSize<<'\n';
+        }
 
 	if(keystates[SDLK_a])
 	{
@@ -618,7 +598,7 @@ void BSInputClass::getKeyboardState()
 	///Teleport
 	if(keystates[SDLK_KP5] && !pressedKeys[SDLK_KP5])
 	{
-		objClassAction->ActionFuncTeleportHero(3, 3);
+        objClassAction->ActionFuncTeleportHero(3, 3);
 		pressedKeys[SDLK_KP5] = true;
 	}
 	else
@@ -637,7 +617,7 @@ void BSInputClass::getKeyboardState()
 			if(consoleString.size() > 0)
 			{
 				consoleString.erase(consoleString.size() - 1);
-				std::cout << '\n' << "Pressed Backspace:" << '\n' << consoleString;
+				std::cout<<'\n'<<"Pressed Backspace:"<<'\n'<<consoleString;
 			}
 		}
 
@@ -646,7 +626,7 @@ void BSInputClass::getKeyboardState()
 
 	///Run
 	if(keystates[heroKeyboard->Run] && !pressedKeys[heroKeyboard->Run]
-	        && speedChangedBoostHigh == false)
+			&& speedChangedBoostHigh == false)
 	{
 		speedWalk *= 2;
 		speedWalkInAir *= 2;
@@ -710,81 +690,85 @@ void BSInputClass::getKeyboardState()
 			DarkLevels = false;
 		}
 
+    bool canPlayIt = false, finish = false;
+
+
+
 	if(keystates[SDLK_b] && !pressedKeys[SDLK_b] && !hero->heroIsBerserk1 && !hero->heroIsBerserk2 && !hero->heroIsBerserk3)
 	{
 		hero->heroIsBerserk1 = true;
-		hero->heroIsBerserk2 = false;
-		hero->heroIsBerserk3 = false;
+        hero->heroIsBerserk2 = false;
+        hero->heroIsBerserk3 = false;
 
-		listOfActiveAnimations[1]->indexOfAnimation = hero->animationIndexPlayerAura1;
-		listOfActiveAnimations[1]->setPlayableStatus(true);
+                listOfActiveAnimations[1]->indexOfAnimation = hero->animationIndexPlayerAura1;
+                listOfActiveAnimations[1]->setPlayableStatus(true);
 
 		hero->animationIndexCurrentAnimationBerserk = hero->animationIndexPlayerAura1;
 
 		pressedKeys[SDLK_b] = true;
 	}
 	else
-		if(keystates[SDLK_b] && !pressedKeys[SDLK_b] && hero->heroIsBerserk1)
-		{
-			hero->heroIsBerserk1 = false;
-			hero->heroIsBerserk2 = true;
-			hero->heroIsBerserk3 = false;
+        if(keystates[SDLK_b] && !pressedKeys[SDLK_b] && hero->heroIsBerserk1)
+        {
+            hero->heroIsBerserk1 = false;
+            hero->heroIsBerserk2 = true;
+            hero->heroIsBerserk3 = false;
 
-			///play the last power up ending animation
-			listOfActiveAnimations[4]->indexOfAnimation = hero->animationIndexPlayerAura2;
-			listOfActiveAnimations[4]->setPlayableStatus(true);
+                ///play the last power up ending animation
+                listOfActiveAnimations[4]->indexOfAnimation = hero->animationIndexPlayerAura2;
+                listOfActiveAnimations[4]->setPlayableStatus(true);
 
-			///play the 2nd aura
-			///listOfActiveAnimations[1]->canPlayIt = true;
-			listOfActiveAnimations[1]->finish = true;
+                ///play the 2nd aura
+                ///listOfActiveAnimations[1]->canPlayIt = true;
+                listOfActiveAnimations[1]->finish = true;
 
-			///play the electricity
-			listOfActiveAnimations[2]->indexOfAnimation = hero->animationIndexPlayerAuraElectricity;
-			listOfActiveAnimations[2]->setPlayableStatus(true);
+                ///play the electricity
+                listOfActiveAnimations[2]->indexOfAnimation = hero->animationIndexPlayerAuraElectricity;
+                listOfActiveAnimations[2]->setPlayableStatus(true);
 
-			hero->animationIndexCurrentAnimationBerserk = hero->animationIndexPlayerAura2;
+            hero->animationIndexCurrentAnimationBerserk = hero->animationIndexPlayerAura2;
 
-			pressedKeys[SDLK_b] = true;
-		}
-		else
-			if(keystates[SDLK_b] && !pressedKeys[SDLK_b] && hero->heroIsBerserk2)
-			{
-				listOfActiveAnimations[2]->setPlayableStatus(false);
+            pressedKeys[SDLK_b] = true;
+        }
+        else
+            if(keystates[SDLK_b] && !pressedKeys[SDLK_b] && hero->heroIsBerserk2)
+            {
+                listOfActiveAnimations[2]->setPlayableStatus(false);
 
-				hero->heroIsBerserk1 = false;
-				hero->heroIsBerserk2 = false;
-				hero->heroIsBerserk3 = true;
+                hero->heroIsBerserk1 = false;
+                hero->heroIsBerserk2 = false;
+                hero->heroIsBerserk3 = true;
 
-				listOfActiveAnimations[4]->indexOfAnimation = hero->animationIndexPlayerAura2;
-				///listOfActiveAnimations[4]->canPlayIt = true;
-				listOfActiveAnimations[4]->finish = true;
+                listOfActiveAnimations[4]->indexOfAnimation = hero->animationIndexPlayerAura2;
+                ///listOfActiveAnimations[4]->canPlayIt = true;
+                listOfActiveAnimations[4]->finish = true;
 
-				listOfActiveAnimations[1]->indexOfAnimation = hero->animationIndexPlayerAura3;
-				listOfActiveAnimations[1]->setPlayableStatus(true);
+                listOfActiveAnimations[1]->indexOfAnimation = hero->animationIndexPlayerAura3;
+                listOfActiveAnimations[1]->setPlayableStatus(true);
 
-				hero->animationIndexCurrentAnimationBerserk = hero->animationIndexPlayerAura3;
+                hero->animationIndexCurrentAnimationBerserk = hero->animationIndexPlayerAura3;
 
-				pressedKeys[SDLK_b] = true;
-			}
-			else
-				if(keystates[SDLK_b] && !pressedKeys[SDLK_b] && hero->heroIsBerserk3)
-				{
-					hero->heroIsBerserk1 = false;
-					hero->heroIsBerserk2 = false;
-					hero->heroIsBerserk3 = false;
+                pressedKeys[SDLK_b] = true;
+            }
+            else
+                if(keystates[SDLK_b] && !pressedKeys[SDLK_b] && hero->heroIsBerserk3)
+                {
+                    hero->heroIsBerserk1 = false;
+                    hero->heroIsBerserk2 = false;
+                    hero->heroIsBerserk3 = false;
 
 					///listOfActiveAnimations[4]->indexOfAnimation = hero->animationIndexPlayerAura3;
 					///listOfActiveAnimations[4]->canPlayIt = true;
 					///listOfActiveAnimations[4]->finish = true;
 
-					///listOfActiveAnimations[1]->indexOfAnimation = hero->animationIndexPlayerAura1;
-					listOfActiveAnimations[1]->finish = true;
-					hero->IsAtStepOfAnimation21 = false;
-					hero->IsAtStepOfAnimation22 = false;
-					hero->IsAtStepOfAnimation23 = true;
+                    ///listOfActiveAnimations[1]->indexOfAnimation = hero->animationIndexPlayerAura1;
+                    listOfActiveAnimations[1]->finish = true;
+                    hero->IsAtStepOfAnimation21 = false;
+                    hero->IsAtStepOfAnimation22 = false;
+                    hero->IsAtStepOfAnimation23 = true;
 
-					pressedKeys[SDLK_b] = true;
-				}
+                    pressedKeys[SDLK_b] = true;
+                }
 
 	///Escape
 	if(keystates[heroKeyboard->Escape] && !pressedKeys[heroKeyboard->Escape])
@@ -824,7 +808,7 @@ void BSInputClass::getKeyboardState()
 					}
 				}
 
-				consoleString = "change scale size " + BS_ToString(scaleSize);
+				consoleString = "change scale size " + BStoString(scaleSize);
 			}
 		}
 
@@ -950,7 +934,7 @@ void BSInputClass::getKeyboardState()
 		///if presses jump the first time
 		if(keystates[heroKeyboard->Jump] && !jumpPressed && (isOnGround || isOnLeftWall || isOnRightWall))
 		{
-			isSpaceDown = true;
+            isSpaceDown = true;
 			ButtonJump = true;
 			jumpPressed = true;
 		}
@@ -958,38 +942,38 @@ void BSInputClass::getKeyboardState()
 			///if he doesn't press space
 			if(!keystates[heroKeyboard->Jump])
 			{
-				isSpaceDown = false;
+                isSpaceDown = false;
 				jumpPressed = false;
-				ButtonJump = false;
+                ButtonJump = false;
 			}
 			else
 				///if he presses jump the second time
 				if(keystates[heroKeyboard->Jump] && !jumpPressed &&
-				        isInAir && !isInCorner && !isOnLeftWall && !isOnRightWall &&
-				        ((!pressedJumpSecond && hero->heroIsBerserk1) || hero->heroIsBerserk2 || hero->heroIsBerserk3))
+                        isInAir && !isInCorner && !isOnLeftWall && !isOnRightWall &&
+                        ((!pressedJumpSecond && hero->heroIsBerserk1) || hero->heroIsBerserk2 || hero->heroIsBerserk3 ))
 				{
-					isSpaceDown = true;
+                    isSpaceDown = true;
 					pressedJumpSecond = true;
 					jumpSecondSpinned = false;
-					ButtonJump = true;
-					jumpPressed = true;
+                    ButtonJump = true;
+                    jumpPressed = true;
 				}
 				else
-					///if he presses jump, but is not the first time
-					///put !jumpPressed for unlimited jumps
-					if(keystates[heroKeyboard->Jump] && !jumpPressed && pressedJumpSecond)
-					{
-						isSpaceDown = true;
-						ButtonJump = false;
-						jumpPressed = true;
-					}
-					else
-						if(keystates[heroKeyboard->Jump])
-						{
-							isSpaceDown = true;
-							ButtonJump = false;
-							jumpPressed = true;
-						}
+                    ///if he presses jump, but is not the first time
+                    ///put !jumpPressed for unlimited jumps
+                    if(keystates[heroKeyboard->Jump] && !jumpPressed && pressedJumpSecond)
+                    {
+                        isSpaceDown = true;
+                        ButtonJump = false;
+                        jumpPressed = true;
+                    }
+                    else
+                        if(keystates[heroKeyboard->Jump])
+                        {
+                            isSpaceDown = true;
+                            ButtonJump = false;
+                            jumpPressed = true;
+                        }
 
 	}
 
@@ -1003,7 +987,7 @@ void BSInputClass::getKeyboardState()
 			if(canWriteInConsole)
 			{
 				canWriteInConsole = false;
-				std::cout << '\n' << "Not can write in console! " << consoleString << '\n';
+				std::cout << '\n' << "Not can write in console! " <<consoleString<< '\n';
 			}
 			else
 			{
@@ -1029,11 +1013,11 @@ void BSInputClass::getKeyboardState()
 
 			if(event.key.keysym.sym == SDLK_SPACE)
 			{
-				std::cout << '_';
+				std::cout<<'_';
 			}
 			else
 			{
-				std::cout << (char)event.key.keysym.sym;
+				std::cout<<(char)event.key.keysym.sym;
 			}
 
 			pressedKeys[event.key.keysym.sym] = true;
@@ -1070,7 +1054,7 @@ void BSInputClass::controlGamePad()
 	///Teleport
 	if(SDL_JoystickGetButton(theGamepads[0]->joystick, 2) && !theGamepads[0]->buttonIsPressed[2])
 	{
-		objClassAction->ActionFuncTeleportHero(3, 3);
+        objClassAction->ActionFuncTeleportHero(3, 3);
 		theGamepads[0]->buttonIsPressed[2] = true;
 	}
 	else
@@ -1234,7 +1218,7 @@ void BSInputClass::controlGamePad()
 			}
 			else
 				if(!(event.jhat.value & SDL_HAT_UP) && !(event.jhat.value & SDL_HAT_DOWN) &&
-				        !(event.jhat.value & SDL_HAT_LEFT) && !(event.jhat.value & SDL_HAT_RIGHT))
+						!(event.jhat.value & SDL_HAT_LEFT) && !(event.jhat.value & SDL_HAT_RIGHT))
 				{
 					theGamepads[0]->upHat = false;
 					theGamepads[0]->downHat = false;
@@ -1280,9 +1264,9 @@ void BSInputClass::controlGamePad()
 
 
 		if(SDL_JoystickGetButton(theGamepads[0]->joystick, 3)
-		        && !jumpPressed && (isOnGround || isOnLeftWall || isOnRightWall))
+                && !jumpPressed && (isOnGround || isOnLeftWall || isOnRightWall))
 		{
-			isSpaceDown = true;
+            isSpaceDown = true;
 			ButtonJump = true;
 			jumpPressed = true;
 		}
@@ -1290,52 +1274,52 @@ void BSInputClass::controlGamePad()
 			///if he doesn't press space
 			if(!SDL_JoystickGetButton(theGamepads[0]->joystick, 3))
 			{
-				isSpaceDown = false;
+                isSpaceDown = false;
 //                        std::cout<<"lala3"<<'\n';
 				jumpPressed = false;
-				ButtonJump = false;
+                ButtonJump = false;
 			}
 			else
 				///if he presses jump the second time
 				if(SDL_JoystickGetButton(theGamepads[0]->joystick, 3) && !jumpPressed &&
-				        isInAir && !isInCorner && !isOnLeftWall && !isOnRightWall &&
-				        ((!pressedJumpSecond && hero->heroIsBerserk1) || hero->heroIsBerserk2 || hero->heroIsBerserk3))
+                        isInAir && !isInCorner && !isOnLeftWall && !isOnRightWall &&
+                        ((!pressedJumpSecond && hero->heroIsBerserk1) || hero->heroIsBerserk2 || hero->heroIsBerserk3 ))
 				{
-					isSpaceDown = true;
+                    isSpaceDown = true;
 					pressedJumpSecond = true;
 					jumpSecondSpinned = false;
-					ButtonJump = true;
-					jumpPressed = true;
+                    ButtonJump = true;
+                    jumpPressed = true;
 				}
 				else
-					///if he presses jump, but is not the first time
-					///put !jumpPressed for unlimited jumps
-					if(SDL_JoystickGetButton(theGamepads[0]->joystick, 3) && !jumpPressed && pressedJumpSecond)
-					{
-						isSpaceDown = true;
-						ButtonJump = false;
-						jumpPressed = true;
-					}
-					else
-						if(SDL_JoystickGetButton(theGamepads[0]->joystick, 3))
-						{
-							isSpaceDown = true;
-							ButtonJump = false;
-							jumpPressed = true;
-						}
+                    ///if he presses jump, but is not the first time
+                    ///put !jumpPressed for unlimited jumps
+                    if(SDL_JoystickGetButton(theGamepads[0]->joystick, 3) && !jumpPressed && pressedJumpSecond)
+                    {
+                        isSpaceDown = true;
+                        ButtonJump = false;
+                        jumpPressed = true;
+                    }
+                    else
+                        if(SDL_JoystickGetButton(theGamepads[0]->joystick, 3))
+                        {
+                            isSpaceDown = true;
+                            ButtonJump = false;
+                            jumpPressed = true;
+                        }
 	}
 }
 
 void BSInputClass::handleInput()
 {
-	SDL_PollEvent(&event);
+	SDL_PollEvent( &event );
 
 	if(event.type == SDL_QUIT)
 	{
 		quit = true;
 	}
 
-	keystates = SDL_GetKeyState(NULL);
+	keystates = SDL_GetKeyState( NULL );
 
 	if(keystates[SDLK_PLUS] || keystates[SDLK_KP_PLUS] || keystates[SDLK_k])
 	{
@@ -1347,7 +1331,7 @@ void BSInputClass::handleInput()
 			useKeyboardOrGamePad = false;
 		}
 
-	checkAllCoins();
+    checkAllCoins();
 	refreshTheGame();
 
 	if(useKeyboardOrGamePad)
@@ -1359,7 +1343,7 @@ void BSInputClass::handleInput()
 		for(int i = 0 ; i < nrOfGamepads; i++)
 		{
 			getButtonsState(theGamepads[i]->indexOfGamepad,
-			                theGamepads[i]->joystick);
+							theGamepads[i]->joystick);
 		}
 		controlGamePad();
 	}
@@ -1368,26 +1352,26 @@ void BSInputClass::handleInput()
 
 void BSInputClass::checkAllCoins()
 {
-	if(keystates[SDLK_0])
-	{
-		for(int it = 0; it < listOfCoins.size(); it++)
-		{
-			listOfCoins[it]->alreadyHadIt = false;
-			listOfCoins[it]->available = true;
-			listOfCoins[it]->deleteIt = false;
-			coinsThisLevel = 0;
-			listOfCoins[it]->sinValue = 90;
-			listOfCoins[it]->sinValue2 = 0;
-			listOfCoins[it]->color.a = 1.0f;
-			listOfCoins[it]->xCord = listOfCoins[it]->xInit;
-			listOfCoins[it]->yCord = listOfCoins[it]->yInit;
-		}
-	}
+    if(keystates[SDLK_0])
+    {
+        for(int it = 0; it < listOfCoins.size(); it++)
+        {
+            listOfCoins[it]->alreadyHadIt = false;
+            listOfCoins[it]->available = true;
+            listOfCoins[it]->deleteIt = false;
+            coinsThisLevel = 0;
+            listOfCoins[it]->sinValue = 90;
+            listOfCoins[it]->sinValue2 = 0;
+            listOfCoins[it]->color.a = 1.0f;
+            listOfCoins[it]->xCord = listOfCoins[it]->xInit;
+            listOfCoins[it]->yCord = listOfCoins[it]->yInit;
+        }
+    }
 }
 
 float BSInputClass::distBetween2Points(float xA, float yA, float xB, float yB)
 {
-	return sqrt(double(xA - xB) * (xA - xB) + (yA - yB) * (yA - yB));
+	return sqrt(double (xA - xB) * (xA - xB) + (yA - yB) * (yA - yB));
 }
 
 void BSInputClass::handleMouse()
@@ -1410,12 +1394,12 @@ void BSInputClass::handleMouse()
 
 	///Mouse animation***********************************************************************
 	listOfMouseCircles.back()->xCord = (float) MouseX / cross_platform_scale + CameraPosition->xCord - CameraExtremeLeft;
-	listOfMouseCircles.back()->yCord = (float)(SCREEN_HEIGHT - MouseY) / cross_platform_scale + CameraPosition->yCord - CameraExtremeDown;
+	listOfMouseCircles.back()->yCord = (float) (SCREEN_HEIGHT - MouseY) / cross_platform_scale + CameraPosition->yCord - CameraExtremeDown;
 
 	float lastX = listOfMouseCircles.back()->xCord, lastY = listOfMouseCircles.back()->yCord, dist, index = 0;
 //	long long currTime = SDL_GetTicks();
 
-	for(int i = 20; i >= 0 ; i -= 5)
+	for(int i = 20; i >= 0 ; i-=5)
 	{
 		bool exittt = false;
 		for(int it = listOfMouseCircles.size() - 1; it >= 0; it--)
@@ -1425,10 +1409,10 @@ void BSInputClass::handleMouse()
 				index++;
 				dist = distBetween2Points(listOfMouseCircles[it]->xCord, listOfMouseCircles[it]->yCord, lastX, lastY);
 				///if mouse is moved
-				if((int)(dist * 100) > i && (int) dist * 100 != i)
+				if((int) (dist * 100) > i && (int) dist * 100 != i)
 				{
-					listOfMouseCircles[it]->xCord = double((dist - i / 100.0f) * lastX + i / 100.0f * listOfMouseCircles[it]->xCord) / dist;
-					listOfMouseCircles[it]->yCord = double((dist - i / 100.0f) * lastY + i / 100.0f * listOfMouseCircles[it]->yCord) / dist;
+					listOfMouseCircles[it]->xCord = double ((dist - i / 100.0f) * lastX + i / 100.0f * listOfMouseCircles[it]->xCord) / dist;
+					listOfMouseCircles[it]->yCord = double ((dist - i / 100.0f) * lastY + i / 100.0f * listOfMouseCircles[it]->yCord) / dist;
 
 					if(listOfMouseCircles[it] == listOfMouseCircles.front())
 					{
@@ -1451,19 +1435,19 @@ void BSInputClass::handleMouse()
 	{
 		if(event.button.button == 1)
 		{
-			std::cout << "left" << '\n';
+			std::cout<<"left"<<'\n';
 			MouseLeft = true;
 		}
 		else
 			if(event.button.button == 2)
 			{
-				std::cout << "middle" << '\n';
+				std::cout<<"middle"<<'\n';
 				//MouseLeft
 			}
 			else
 				if(event.button.button == 3)
 				{
-					std::cout << "right" << '\n';
+					std::cout<<"right"<<'\n';
 					MouseRight = true;
 				}
 	}
@@ -1516,8 +1500,8 @@ void BSInputClass::ControlAnyMenuEnter()
 				//alSourcef(SourceSoundJump, AL_GAIN, newVolumeSFX);
 				//alSourcef(SourceSoundDies, AL_GAIN, newVolumeSFX);
 				//alSourcef(SourceSoundBeginningGame, AL_GAIN, newVolumeSFX);
-				//alSourcef(SourceSoundPowerUp, AL_GAIN, newVolumeSFX);
-				//alSourcef(SourceSoundTeleport, AL_GAIN, newVolumeSFX );
+                //alSourcef(SourceSoundPowerUp, AL_GAIN, newVolumeSFX);
+                //alSourcef(SourceSoundTeleport, AL_GAIN, newVolumeSFX );
 			}
 			else
 				if(currentButton->indexOfButton == 4)//Save
@@ -1549,19 +1533,19 @@ void BSInputClass::ControlAnyMenuEnter()
 					else
 						if(currentMenu->indexOfMenu == 1 && currentButton->indexOfButton == 1)//Daca da Restart
 						{
-							for(int it = 0; it < listOfCoins.size(); it++)
-							{
-								listOfCoins[it]->available = true;
-								listOfCoins[it]->deleteIt = false;
-								coinsThisLevel = 0;
-								listOfCoins[it]->sinValue = 90;
-								listOfCoins[it]->sinValue2 = 0;
-								listOfCoins[it]->color.a = 1.0f;
-								listOfCoins[it]->xCord = listOfCoins[it]->xInit;
-								listOfCoins[it]->yCord = listOfCoins[it]->yInit;
-							}
+								for(int it = 0; it < listOfCoins.size(); it++)
+								{
+									listOfCoins[it]->available = true;
+									listOfCoins[it]->deleteIt = false;
+									coinsThisLevel = 0;
+												listOfCoins[it]->sinValue = 90;
+												listOfCoins[it]->sinValue2 = 0;
+												listOfCoins[it]->color.a = 1.0f;
+												listOfCoins[it]->xCord = listOfCoins[it]->xInit;
+												listOfCoins[it]->yCord = listOfCoins[it]->yInit;
+								}
 
-							someRender->resetDustBodies();
+                            someRender->resetDustBodies();
 
 							hero->heroIsDead = false;
 							hero->texture = playerTexture;
@@ -1604,28 +1588,28 @@ void BSInputClass::ControlAnyMenuEnter()
 				else
 					///Daca se afla in oricare parte a meniului
 				{
-					std::cout << "the Menu: " << currentMenu->indexOfMenu << "; current button: " << currentButton->indexOfButton <<
-					          "; next menu from button: " << currentButton->NextMenuIndex << "; found: ";
+					std::cout<<"the Menu: "<<currentMenu->indexOfMenu<<"; current button: "<<currentButton->indexOfButton<<
+							 "; next menu from button: "<<currentButton->NextMenuIndex<<"; found: ";
 
 					//daca e in pause menu
 					if(currentMenu->indexOfMenu == 1 && currentButton->NextMenuIndex == 4)
 					{
-						//alSourcePlay(SourceSoundBeginningGame);
-						//refac coinsurile
-						for(int it = 0; it < listOfCoins.size(); it++)
-						{
-							if(listOfCoins[it]->alreadyHadIt == false)
-							{
-								listOfCoins[it]->available = true;
-								listOfCoins[it]->deleteIt = false;
-								coinsThisLevel = 0;
-								listOfCoins[it]->sinValue = 90;
-								listOfCoins[it]->sinValue2 = 0;
-								listOfCoins[it]->color.a = 1.0f;
-								listOfCoins[it]->xCord = listOfCoins[it]->xInit;
-								listOfCoins[it]->yCord = listOfCoins[it]->yInit;
-							}
-						}
+                        //alSourcePlay(SourceSoundBeginningGame);
+                        //refac coinsurile
+                        for(int it = 0; it < listOfCoins.size(); it++)
+                        {
+                            if(listOfCoins[it]->alreadyHadIt == false)
+                            {
+                                listOfCoins[it]->available = true;
+                                listOfCoins[it]->deleteIt = false;
+                                coinsThisLevel = 0;
+                                            listOfCoins[it]->sinValue = 90;
+                                            listOfCoins[it]->sinValue2 = 0;
+                                            listOfCoins[it]->color.a = 1.0f;
+                                            listOfCoins[it]->xCord = listOfCoins[it]->xInit;
+                                            listOfCoins[it]->yCord = listOfCoins[it]->yInit;
+                            }
+                        }
 					}
 
 					for(int i = 0; i < listOfMenus.size(); i++)
@@ -1635,12 +1619,12 @@ void BSInputClass::ControlAnyMenuEnter()
 							currentMenu = listOfMenus[i];
 							if(listOfMenus[i]->listOfButtons.size())
 							{
-								currentButton = listOfMenus[i]->listOfButtons.front();
+							    currentButton = listOfMenus[i]->listOfButtons.front();
 							}
 							else
-							{
-								currentButton = NULL;
-							}
+                            {
+                                currentButton = NULL;
+                            }
 							break;
 						}
 					}
@@ -1651,8 +1635,8 @@ void BSInputClass::ControlAnyMenuEnter()
 		if(currentMenu->indexOfMenu == 4 && levelChoserPlayer->canMove)
 		{
 			std::string nameString = "Menu Of Levels/Chapter" +
-			                         BS_ToString(levelChoserPlayer->indexOfChapterThatItIsOn + 1) + "/The Levels objects/level" +
-			                         BS_ToString(levelChoserPlayer->indexOfLevelThatItIsOn + 1) + ".xml";
+									 BStoString(levelChoserPlayer->indexOfChapterThatItIsOn + 1) + "/The Levels objects/level" +
+									 BStoString(levelChoserPlayer->indexOfLevelThatItIsOn + 1) + ".xml";
 			char nameChar[100] = "";
 
 			strcpy(nameChar, nameString.c_str());
@@ -1711,23 +1695,23 @@ void BSInputClass::ControlAnyMenuEnter()
 
 void changeMenuAndButtonsIndexes(int wantedMenuIndex, int wantedButtonIndex)
 {
-	for(int i = 0; i < listOfMenus.size(); i++)
-	{
-		if(listOfMenus[i]->indexOfMenu == wantedMenuIndex)
-		{
-			currentMenu = listOfMenus[i];
+    for(int i = 0; i < listOfMenus.size(); i++)
+    {
+        if(listOfMenus[i]->indexOfMenu == wantedMenuIndex)
+        {
+            currentMenu = listOfMenus[i];
 
-			for(int j = 0; j < currentMenu->listOfButtons.size(); j++)
-			{
-				if(currentMenu->listOfButtons[j]->indexOfButton == wantedButtonIndex)
-				{
-					currentButton = currentMenu->listOfButtons[j];
-				}
-				break;
-			}
-			break;
-		}
-	}
+            for(int j = 0; j < currentMenu->listOfButtons.size(); j++)
+            {
+                if(currentMenu->listOfButtons[j]->indexOfButton == wantedButtonIndex)
+                {
+                    currentButton = currentMenu->listOfButtons[j];
+                }
+                break;
+            }
+            break;
+        }
+    }
 }
 
 void BSInputClass::ControlAnyMenuEscape()
@@ -1735,13 +1719,13 @@ void BSInputClass::ControlAnyMenuEscape()
 	///Daca e in joc, trece in Pause Menu
 	if(currentMenu->indexOfMenu == 3)
 	{
-		changeMenuAndButtonsIndexes(1, 0);
+	    changeMenuAndButtonsIndexes(1, 0);
 	}
 	else
 		///Daca e in Levels, trece in Chapters
 		if(currentMenu->indexOfMenu == 4)
 		{
-			changeMenuAndButtonsIndexes(5, 0);
+		    changeMenuAndButtonsIndexes(5, 0);
 
 			levelChoserPlayer->xCord = chaptere[levelChoserPlayer->indexOfChapterThatItIsOn]->xCord;
 			levelChoserPlayer->yCord = chaptere[levelChoserPlayer->indexOfChapterThatItIsOn]->yCord;
@@ -1752,26 +1736,26 @@ void BSInputClass::ControlAnyMenuEscape()
 			///Daca e in Chapters, trece in Levels
 			if(currentMenu->indexOfMenu == 5)
 			{
-				changeMenuAndButtonsIndexes(0, 0);
+			    changeMenuAndButtonsIndexes(0, 0);
 			}
 			else
 				///Daca e in Pause Menu, trece in joc
 				if(currentMenu->indexOfMenu == 1)
 				{
-					changeMenuAndButtonsIndexes(3, 0);
+				    changeMenuAndButtonsIndexes(3, 0);
 				}
 				else
 					///Daca e in Settings
 					if(currentMenu->indexOfMenu == 2)
 					{
-						if(settingsFromFirstOrGame)
-						{
-							changeMenuAndButtonsIndexes(0, 0);
-						}
-						else
-						{
-							changeMenuAndButtonsIndexes(1, 0);
-						}
+                        if(settingsFromFirstOrGame)
+                        {
+                            changeMenuAndButtonsIndexes(0, 0);
+                        }
+                        else
+                        {
+                            changeMenuAndButtonsIndexes(1, 0);
+                        }
 
 						newVolumeAudio = currentVolumeAudio;
 						newVolumeSFX = currentVolumeSFX;
@@ -1783,7 +1767,7 @@ void BSInputClass::ControlAnyMenuEscape()
 						//alSourcef(SourceSoundDies, AL_GAIN, newVolumeSFX);
 						//alSourcef(SourceSoundBeginningGame, AL_GAIN, newVolumeSFX);
 						//alSourcef(SourceSoundPowerUp, AL_GAIN, newVolumeSFX);
-						//alSourcef(SourceSoundTeleport, AL_GAIN, newVolumeSFX );
+                        //alSourcef(SourceSoundTeleport, AL_GAIN, newVolumeSFX );
 					}
 }
 
@@ -1794,8 +1778,8 @@ void BSInputClass::ControlAnyMenuLeftRightUpDown(int upOrDown)
 	{
 		if(upOrDown == 1)
 		{
-			currentButton->value1 = 0;
-			currentButton->value2 = 0;
+            currentButton->value1 = 0;
+            currentButton->value2 = 0;
 
 			if(currentButton->indexOfButton > 0)
 			{
@@ -1812,8 +1796,8 @@ void BSInputClass::ControlAnyMenuLeftRightUpDown(int upOrDown)
 		else
 			if(upOrDown == -1)
 			{
-				currentButton->value1 = 0;
-				currentButton->value2 = 0;
+                currentButton->value1 = 0;
+                currentButton->value2 = 0;
 
 				if(currentButton->indexOfButton < currentMenu->numberOfButtons - 1)
 				{
@@ -1872,8 +1856,8 @@ void BSInputClass::refreshLevel()
 	objClassObstacle->destroyLevel();
 
 	std::string nameString = "Menu Of Levels/Chapter" +
-	                         BS_ToString(levelChoserPlayer->indexOfChapterThatItIsOn + 1) + "/The Levels objects/level" +
-	                         BS_ToString(levelChoserPlayer->indexOfLevelThatItIsOn + 1) + ".xml";
+							 BStoString(levelChoserPlayer->indexOfChapterThatItIsOn + 1) + "/The Levels objects/level" +
+							 BStoString(levelChoserPlayer->indexOfLevelThatItIsOn + 1) + ".xml";
 	char nameChar[100] = "";
 	strcpy(nameChar, nameString.c_str());
 
@@ -1886,21 +1870,21 @@ void BSInputClass::refreshLevel()
 
 	///Set the extremes of the camera
 	std::string nameOfLevel = "Menu Of Levels/Chapter" +
-	                          BS_ToString(levelChoserPlayer->indexOfChapterThatItIsOn + 1) + "/The Levels details/level" +
-	                          BS_ToString(levelChoserPlayer->indexOfLevelThatItIsOn + 1) + ".txt";
+							  BStoString(levelChoserPlayer->indexOfChapterThatItIsOn + 1) + "/The Levels details/level" +
+							  BStoString(levelChoserPlayer->indexOfLevelThatItIsOn + 1) + ".txt";
 	const char *nameOfLevelChar = nameOfLevel.c_str();
 
 	std::ifstream citesteLevelulCurent(nameOfLevelChar);
 	float a1, a2, l, d, u, r;
 	std::string cacat;
-	citesteLevelulCurent >> a1 >> a2 >> cacat >> l >> d >> u >> r;
+	citesteLevelulCurent>>a1>>a2>>cacat>>l>>d>>u>>r;
 
 	CameraExtremeDown = d + SCREEN_HEIGHT / 2.f / scaleSize;
 	CameraExtremeLeft = l + SCREEN_WIDTH / 2.f / scaleSize;
 	CameraExtremeUp = u - SCREEN_HEIGHT / 2.f / scaleSize;
 	CameraExtremeRight = r - SCREEN_WIDTH / 2.f / scaleSize;
 
-	std::cout << "extremes: " << l << " " << d << " " << u << " " << r << '\n';
+	std::cout<<"extremes: "<<l<<" "<<d<<" "<<u<<" "<<r<<'\n';
 }
 
 void BSInputClass::refreshShaders()

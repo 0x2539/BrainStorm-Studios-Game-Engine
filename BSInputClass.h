@@ -1,3 +1,4 @@
+#pragma once
 #ifndef BSInputClass_H
 #define BSInputClass_H
 
@@ -30,7 +31,7 @@ public:
 	void handleKeyboard();
 	void controlGamePad();
 
-	void checkAllCoins();
+    void checkAllCoins();
 
 	void handleMouse();
 

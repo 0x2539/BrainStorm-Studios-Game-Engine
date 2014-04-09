@@ -1,3 +1,4 @@
+#pragma once
 #ifndef LSHADERPROGRAM_H_INCLUDED
 #define LSHADERPROGRAM_H_INCLUDED
 
@@ -8,27 +9,30 @@
 
 class BSShaderProgram
 {
-public:
-	BSShaderProgram();
+	public:
+		BSShaderProgram();
 
-	virtual ~BSShaderProgram();
+        virtual ~BSShaderProgram();
 
-	virtual bool loadProgram() = 0;
+		virtual bool loadProgram(std::string _path_vertex_shader, std::string _path_fragment_shader) = 0;
 
-	virtual void freeProgram();
+		virtual void freeProgram();
 
-	bool bind();
+		bool bind();
 
-	void unbind();
+		void unbind();
 
-	GLuint getProgramID();
+		GLuint getProgramID();
 
-protected:
-	void printProgramLog(GLuint program);
 
-	void printShaderLog(GLuint shader);
+	protected:
+	    GLuint BSProgramID;
 
-	GLuint loadShaderFromFile(std::string path, GLenum shaderType);
+		void printProgramLog( GLuint program );
+
+		void printShaderLog( GLuint shader );
+
+		GLuint loadShaderFromFile( std::string path, GLenum shaderType );
 
 };
 

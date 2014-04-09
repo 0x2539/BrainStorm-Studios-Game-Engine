@@ -1,3 +1,4 @@
+#pragma once
 #ifndef LOPENGL_H
 #define LOPENGL_H
 
@@ -16,8 +17,6 @@
 
 #include <stdio.h>
 
-#include <AL/al.h>
-#include <AL/alc.h>
 #include <SDL/SDL.h>
 
 #endif
