@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brainstorm Studios Game Engine", "Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine.csproj", "{EA3B844B-77B7-467D-BB80-1292375378D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brainstorm Studios Game EngineContent", "Brainstorm Studios Game Engine\Brainstorm Studios Game EngineContent\Brainstorm Studios Game EngineContent.contentproj", "{FDA3F940-0820-4866-9A15-D813DAE11F5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentPipelineExtension", "ContentPipelineExtension\ContentPipelineExtension.csproj", "{340B7150-FFC4-4626-B560-7043142AC196}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA3B844B-77B7-467D-BB80-1292375378D9}.Debug|x86.ActiveCfg = Debug|x86
+		{EA3B844B-77B7-467D-BB80-1292375378D9}.Debug|x86.Build.0 = Debug|x86
+		{EA3B844B-77B7-467D-BB80-1292375378D9}.Release|x86.ActiveCfg = Release|x86
+		{EA3B844B-77B7-467D-BB80-1292375378D9}.Release|x86.Build.0 = Release|x86
+		{FDA3F940-0820-4866-9A15-D813DAE11F5D}.Debug|x86.ActiveCfg = Debug|x86
+		{FDA3F940-0820-4866-9A15-D813DAE11F5D}.Release|x86.ActiveCfg = Release|x86
+		{340B7150-FFC4-4626-B560-7043142AC196}.Debug|x86.ActiveCfg = Debug|x86
+		{340B7150-FFC4-4626-B560-7043142AC196}.Debug|x86.Build.0 = Debug|x86
+		{340B7150-FFC4-4626-B560-7043142AC196}.Release|x86.ActiveCfg = Debug|x86
+		{340B7150-FFC4-4626-B560-7043142AC196}.Release|x86.Build.0 = Debug|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

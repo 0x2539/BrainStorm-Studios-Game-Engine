@@ -1,0 +1,3142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Animations\background\background.png</Source>
+      <Name>Animations\background\background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\background\background.xnb</Output>
+      <Time>2013-10-14T00:17:52+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\coin.png</Source>
+      <Name>Animations\coin</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\coin.xnb</Output>
+      <Time>2013-10-14T00:17:32+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\coin1.png</Source>
+      <Name>Animations\coin1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\coin1.xnb</Output>
+      <Time>2013-10-14T00:17:34+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\coin2.jpg</Source>
+      <Name>Animations\coin2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\coin2.xnb</Output>
+      <Time>2013-10-14T00:17:34+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\dark 2.png</Source>
+      <Name>Animations\dark 2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\dark 2.xnb</Output>
+      <Time>2013-10-14T00:17:36+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\dark.png</Source>
+      <Name>Animations\dark</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\dark.xnb</Output>
+      <Time>2013-10-14T00:17:38+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\dust.png</Source>
+      <Name>Animations\dust</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\dust.xnb</Output>
+      <Time>2013-10-14T00:17:40+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\fan.png</Source>
+      <Name>Animations\fan</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\fan.xnb</Output>
+      <Time>2013-10-14T00:17:40+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\CapsOn\A.png</Source>
+      <Name>Animations\Font\CapsOn\A</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\CapsOn\A.xnb</Output>
+      <Time>2013-10-14T00:18:48+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\CapsOn\B.png</Source>
+      <Name>Animations\Font\CapsOn\B</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\CapsOn\B.xnb</Output>
+      <Time>2013-10-14T00:18:48+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\CapsOn\C.png</Source>
+      <Name>Animations\Font\CapsOn\C</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\CapsOn\C.xnb</Output>
+      <Time>2013-10-14T00:18:50+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\CapsOn\D.png</Source>
+      <Name>Animations\Font\CapsOn\D</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\CapsOn\D.xnb</Output>
+      <Time>2013-10-14T00:18:52+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\CapsOn\dataOfFont.png</Source>
+      <Name>Animations\Font\CapsOn\dataOfFont</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\CapsOn\dataOfFont.xnb</Output>
+      <Time>2013-10-14T00:18:54+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\CapsOn\E.png</Source>
+      <Name>Animations\Font\CapsOn\E</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\CapsOn\E.xnb</Output>
+      <Time>2013-10-14T00:18:56+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\CapsOn\F.png</Source>
+      <Name>Animations\Font\CapsOn\F</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\CapsOn\F.xnb</Output>
+      <Time>2013-10-14T00:18:58+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\CapsOn\G.png</Source>
+      <Name>Animations\Font\CapsOn\G</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\CapsOn\G.xnb</Output>
+      <Time>2013-10-14T00:19:00+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\CapsOn\H.png</Source>
+      <Name>Animations\Font\CapsOn\H</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\CapsOn\H.xnb</Output>
+      <Time>2013-10-14T00:19:02+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\CapsOn\I.png</Source>
+      <Name>Animations\Font\CapsOn\I</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\CapsOn\I.xnb</Output>
+      <Time>2013-10-14T00:19:02+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\CapsOn\J.png</Source>
+      <Name>Animations\Font\CapsOn\J</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\CapsOn\J.xnb</Output>
+      <Time>2013-10-14T00:19:04+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\CapsOn\K.png</Source>
+      <Name>Animations\Font\CapsOn\K</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\CapsOn\K.xnb</Output>
+      <Time>2013-10-14T00:19:06+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\CapsOn\L.png</Source>
+      <Name>Animations\Font\CapsOn\L</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\CapsOn\L.xnb</Output>
+      <Time>2013-10-14T00:19:08+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\CapsOn\M.png</Source>
+      <Name>Animations\Font\CapsOn\M</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\CapsOn\M.xnb</Output>
+      <Time>2013-10-14T00:19:08+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\CapsOn\N.png</Source>
+      <Name>Animations\Font\CapsOn\N</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\CapsOn\N.xnb</Output>
+      <Time>2013-10-14T00:19:10+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\CapsOn\O.png</Source>
+      <Name>Animations\Font\CapsOn\O</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\CapsOn\O.xnb</Output>
+      <Time>2013-10-14T00:19:12+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\CapsOn\P.png</Source>
+      <Name>Animations\Font\CapsOn\P</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\CapsOn\P.xnb</Output>
+      <Time>2013-10-14T00:19:12+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\CapsOn\Q.png</Source>
+      <Name>Animations\Font\CapsOn\Q</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\CapsOn\Q.xnb</Output>
+      <Time>2013-10-14T00:19:14+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\CapsOn\R.png</Source>
+      <Name>Animations\Font\CapsOn\R</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\CapsOn\R.xnb</Output>
+      <Time>2013-10-14T00:19:16+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\CapsOn\S.png</Source>
+      <Name>Animations\Font\CapsOn\S</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\CapsOn\S.xnb</Output>
+      <Time>2013-10-14T00:19:16+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\CapsOn\T.png</Source>
+      <Name>Animations\Font\CapsOn\T</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\CapsOn\T.xnb</Output>
+      <Time>2013-10-14T00:19:18+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\CapsOn\U.png</Source>
+      <Name>Animations\Font\CapsOn\U</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\CapsOn\U.xnb</Output>
+      <Time>2013-10-14T00:19:20+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\CapsOn\V.png</Source>
+      <Name>Animations\Font\CapsOn\V</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\CapsOn\V.xnb</Output>
+      <Time>2013-10-14T00:19:22+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\CapsOn\W.png</Source>
+      <Name>Animations\Font\CapsOn\W</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\CapsOn\W.xnb</Output>
+      <Time>2013-10-14T00:19:22+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\CapsOn\X.png</Source>
+      <Name>Animations\Font\CapsOn\X</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\CapsOn\X.xnb</Output>
+      <Time>2013-10-14T00:19:24+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\CapsOn\Y.png</Source>
+      <Name>Animations\Font\CapsOn\Y</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\CapsOn\Y.xnb</Output>
+      <Time>2013-10-14T00:19:26+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\CapsOn\Z.png</Source>
+      <Name>Animations\Font\CapsOn\Z</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\CapsOn\Z.xnb</Output>
+      <Time>2013-10-14T00:19:28+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\dataOfFont black.png</Source>
+      <Name>Animations\Font\dataOfFont black</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\dataOfFont black.xnb</Output>
+      <Time>2013-10-14T00:17:54+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\dataOfFont.png</Source>
+      <Name>Animations\Font\dataOfFont</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\dataOfFont.xnb</Output>
+      <Time>2013-10-14T00:17:56+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\Numbers\0.png</Source>
+      <Name>Animations\Font\Numbers\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\Numbers\0.xnb</Output>
+      <Time>2013-10-14T00:19:28+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\Numbers\1.png</Source>
+      <Name>Animations\Font\Numbers\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\Numbers\1.xnb</Output>
+      <Time>2013-10-14T00:19:30+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\Numbers\2.png</Source>
+      <Name>Animations\Font\Numbers\2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\Numbers\2.xnb</Output>
+      <Time>2013-10-14T00:19:32+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\Numbers\3.png</Source>
+      <Name>Animations\Font\Numbers\3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\Numbers\3.xnb</Output>
+      <Time>2013-10-14T00:19:32+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\Numbers\4.png</Source>
+      <Name>Animations\Font\Numbers\4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\Numbers\4.xnb</Output>
+      <Time>2013-10-14T00:19:34+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\Numbers\5.png</Source>
+      <Name>Animations\Font\Numbers\5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\Numbers\5.xnb</Output>
+      <Time>2013-10-14T00:19:36+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\Numbers\6.png</Source>
+      <Name>Animations\Font\Numbers\6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\Numbers\6.xnb</Output>
+      <Time>2013-10-14T00:19:38+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\Numbers\7.png</Source>
+      <Name>Animations\Font\Numbers\7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\Numbers\7.xnb</Output>
+      <Time>2013-10-14T00:19:38+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\Numbers\8.png</Source>
+      <Name>Animations\Font\Numbers\8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\Numbers\8.xnb</Output>
+      <Time>2013-10-14T00:19:40+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\Numbers\9.png</Source>
+      <Name>Animations\Font\Numbers\9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\Numbers\9.xnb</Output>
+      <Time>2013-10-14T00:19:42+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\Numbers\apostrof.png</Source>
+      <Name>Animations\Font\Numbers\apostrof</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\Numbers\apostrof.xnb</Output>
+      <Time>2013-10-14T00:19:42+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\Numbers\punct.png</Source>
+      <Name>Animations\Font\Numbers\punct</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\Numbers\punct.xnb</Output>
+      <Time>2013-10-14T00:19:44+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Font\Numbers\virgula.png</Source>
+      <Name>Animations\Font\Numbers\virgula</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Font\Numbers\virgula.xnb</Output>
+      <Time>2013-10-14T00:19:46+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\messageAnimation\amazingHeights.png</Source>
+      <Name>Animations\messageAnimation\amazingHeights</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\messageAnimation\amazingHeights.xnb</Output>
+      <Time>2013-10-14T00:19:48+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\messageAnimation\cantJump.png</Source>
+      <Name>Animations\messageAnimation\cantJump</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\messageAnimation\cantJump.xnb</Output>
+      <Time>2013-10-14T00:19:48+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\messageAnimation\killingMill.png</Source>
+      <Name>Animations\messageAnimation\killingMill</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\messageAnimation\killingMill.xnb</Output>
+      <Time>2013-10-14T00:19:50+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\messageAnimation\last.png</Source>
+      <Name>Animations\messageAnimation\last</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\messageAnimation\last.xnb</Output>
+      <Time>2013-10-14T00:19:52+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\messageAnimation\message original.png</Source>
+      <Name>Animations\messageAnimation\message original</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\messageAnimation\message original.xnb</Output>
+      <Time>2013-10-14T00:19:54+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\messageAnimation\nextLevel.png</Source>
+      <Name>Animations\messageAnimation\nextLevel</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\messageAnimation\nextLevel.xnb</Output>
+      <Time>2013-10-14T00:19:54+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\messageAnimation\theMessageSign.png</Source>
+      <Name>Animations\messageAnimation\theMessageSign</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\messageAnimation\theMessageSign.xnb</Output>
+      <Time>2013-10-14T00:19:56+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\messageAnimation\unconventionalBlocks.png</Source>
+      <Name>Animations\messageAnimation\unconventionalBlocks</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\messageAnimation\unconventionalBlocks.xnb</Output>
+      <Time>2013-10-14T00:19:58+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\textureAnimation\mouseImage.png</Source>
+      <Name>Animations\textureAnimation\mouseImage</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\textureAnimation\mouseImage.xnb</Output>
+      <Time>2013-10-14T00:17:42+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Player Round\body.png</Source>
+      <Name>Animations\Player Round\body</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Player Round\body.xnb</Output>
+      <Time>2013-10-14T00:20:18+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Player Round\bodyAttached.png</Source>
+      <Name>Animations\Player Round\bodyAttached</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Player Round\bodyAttached.xnb</Output>
+      <Time>2013-10-14T00:20:20+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity - Copy\playerTexture0.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity - Copy\playerTexture0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity - Copy\playerTexture0.xnb</Output>
+      <Time>2013-10-14T00:20:48+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity - Copy\playerTexture1.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity - Copy\playerTexture1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity - Copy\playerTexture1.xnb</Output>
+      <Time>2013-10-14T00:20:50+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity - Copy\playerTexture10.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity - Copy\playerTexture10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity - Copy\playerTexture10.xnb</Output>
+      <Time>2013-10-14T00:20:50+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity - Copy\playerTexture11.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity - Copy\playerTexture11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity - Copy\playerTexture11.xnb</Output>
+      <Time>2013-10-14T00:20:52+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity - Copy\playerTexture12.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity - Copy\playerTexture12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity - Copy\playerTexture12.xnb</Output>
+      <Time>2013-10-14T00:20:54+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity - Copy\playerTexture13.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity - Copy\playerTexture13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity - Copy\playerTexture13.xnb</Output>
+      <Time>2013-10-14T00:20:56+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity - Copy\playerTexture2.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity - Copy\playerTexture2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity - Copy\playerTexture2.xnb</Output>
+      <Time>2013-10-14T00:20:56+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity - Copy\playerTexture3.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity - Copy\playerTexture3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity - Copy\playerTexture3.xnb</Output>
+      <Time>2013-10-14T00:20:58+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity - Copy\playerTexture4.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity - Copy\playerTexture4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity - Copy\playerTexture4.xnb</Output>
+      <Time>2013-10-14T00:20:58+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity - Copy\playerTexture5.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity - Copy\playerTexture5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity - Copy\playerTexture5.xnb</Output>
+      <Time>2013-10-14T00:21:00+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity - Copy\playerTexture6.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity - Copy\playerTexture6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity - Copy\playerTexture6.xnb</Output>
+      <Time>2013-10-14T00:21:08+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity - Copy\playerTexture7.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity - Copy\playerTexture7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity - Copy\playerTexture7.xnb</Output>
+      <Time>2013-10-14T00:21:10+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity - Copy\playerTexture8.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity - Copy\playerTexture8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity - Copy\playerTexture8.xnb</Output>
+      <Time>2013-10-14T00:21:12+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity - Copy\playerTexture9.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity - Copy\playerTexture9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity - Copy\playerTexture9.xnb</Output>
+      <Time>2013-10-14T00:21:12+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture0.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture0.xnb</Output>
+      <Time>2013-10-14T00:21:14+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture1.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture1.xnb</Output>
+      <Time>2013-10-14T00:21:14+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture10.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture10.xnb</Output>
+      <Time>2013-10-14T00:21:16+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture11.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture11.xnb</Output>
+      <Time>2013-10-14T00:21:18+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture12.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture12.xnb</Output>
+      <Time>2013-10-14T00:21:18+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture13.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture13.xnb</Output>
+      <Time>2013-10-14T00:21:20+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture2.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture2.xnb</Output>
+      <Time>2013-10-14T00:21:20+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture3.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture3.xnb</Output>
+      <Time>2013-10-14T00:21:24+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture4.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture4.xnb</Output>
+      <Time>2013-10-14T00:21:24+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture5.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture5.xnb</Output>
+      <Time>2013-10-14T00:21:26+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture6.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture6.xnb</Output>
+      <Time>2013-10-14T00:21:26+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture7.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture7.xnb</Output>
+      <Time>2013-10-14T00:21:28+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture8.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture8.xnb</Output>
+      <Time>2013-10-14T00:21:30+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture9.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity - culoare inchisa\playerTexture9.xnb</Output>
+      <Time>2013-10-14T00:21:32+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity\playerTexture0.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity\playerTexture0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity\playerTexture0.xnb</Output>
+      <Time>2013-10-14T00:20:32+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity\playerTexture1.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity\playerTexture1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity\playerTexture1.xnb</Output>
+      <Time>2013-10-14T00:20:32+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity\playerTexture10.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity\playerTexture10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity\playerTexture10.xnb</Output>
+      <Time>2013-10-14T00:20:34+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity\playerTexture11.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity\playerTexture11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity\playerTexture11.xnb</Output>
+      <Time>2013-10-14T00:20:34+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity\playerTexture12.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity\playerTexture12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity\playerTexture12.xnb</Output>
+      <Time>2013-10-14T00:20:36+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity\playerTexture13.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity\playerTexture13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity\playerTexture13.xnb</Output>
+      <Time>2013-10-14T00:20:38+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity\playerTexture2.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity\playerTexture2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity\playerTexture2.xnb</Output>
+      <Time>2013-10-14T00:20:38+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity\playerTexture3.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity\playerTexture3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity\playerTexture3.xnb</Output>
+      <Time>2013-10-14T00:20:40+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity\playerTexture4.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity\playerTexture4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity\playerTexture4.xnb</Output>
+      <Time>2013-10-14T00:20:42+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity\playerTexture5.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity\playerTexture5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity\playerTexture5.xnb</Output>
+      <Time>2013-10-14T00:20:42+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity\playerTexture6.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity\playerTexture6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity\playerTexture6.xnb</Output>
+      <Time>2013-10-14T00:20:44+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity\playerTexture7.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity\playerTexture7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity\playerTexture7.xnb</Output>
+      <Time>2013-10-14T00:20:44+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity\playerTexture8.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity\playerTexture8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity\playerTexture8.xnb</Output>
+      <Time>2013-10-14T00:20:46+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura-electricity\playerTexture9.png</Source>
+      <Name>Animations\playerAnimation\aura-electricity\playerTexture9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura-electricity\playerTexture9.xnb</Output>
+      <Time>2013-10-14T00:20:48+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura1\playerTexture0.png</Source>
+      <Name>Animations\playerAnimation\aura1\playerTexture0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura1\playerTexture0.xnb</Output>
+      <Time>2013-10-14T00:21:32+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura1\playerTexture1.png</Source>
+      <Name>Animations\playerAnimation\aura1\playerTexture1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura1\playerTexture1.xnb</Output>
+      <Time>2013-10-14T00:21:34+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura1\playerTexture10.png</Source>
+      <Name>Animations\playerAnimation\aura1\playerTexture10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura1\playerTexture10.xnb</Output>
+      <Time>2013-10-14T00:21:36+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura1\playerTexture11.png</Source>
+      <Name>Animations\playerAnimation\aura1\playerTexture11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura1\playerTexture11.xnb</Output>
+      <Time>2013-10-14T00:21:38+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura1\playerTexture12.png</Source>
+      <Name>Animations\playerAnimation\aura1\playerTexture12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura1\playerTexture12.xnb</Output>
+      <Time>2013-10-14T00:21:38+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura1\playerTexture13.png</Source>
+      <Name>Animations\playerAnimation\aura1\playerTexture13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura1\playerTexture13.xnb</Output>
+      <Time>2013-10-14T00:21:40+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura1\playerTexture14.png</Source>
+      <Name>Animations\playerAnimation\aura1\playerTexture14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura1\playerTexture14.xnb</Output>
+      <Time>2013-10-14T00:21:40+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura1\playerTexture15.png</Source>
+      <Name>Animations\playerAnimation\aura1\playerTexture15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura1\playerTexture15.xnb</Output>
+      <Time>2013-10-14T00:21:42+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura1\playerTexture16.png</Source>
+      <Name>Animations\playerAnimation\aura1\playerTexture16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura1\playerTexture16.xnb</Output>
+      <Time>2013-10-14T00:21:52+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura1\playerTexture17.png</Source>
+      <Name>Animations\playerAnimation\aura1\playerTexture17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura1\playerTexture17.xnb</Output>
+      <Time>2013-10-14T00:21:56+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura1\playerTexture18.png</Source>
+      <Name>Animations\playerAnimation\aura1\playerTexture18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura1\playerTexture18.xnb</Output>
+      <Time>2013-10-14T00:21:56+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura1\playerTexture2.png</Source>
+      <Name>Animations\playerAnimation\aura1\playerTexture2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura1\playerTexture2.xnb</Output>
+      <Time>2013-10-14T00:21:58+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura1\playerTexture3.png</Source>
+      <Name>Animations\playerAnimation\aura1\playerTexture3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura1\playerTexture3.xnb</Output>
+      <Time>2013-10-14T00:22:00+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura1\playerTexture4.png</Source>
+      <Name>Animations\playerAnimation\aura1\playerTexture4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura1\playerTexture4.xnb</Output>
+      <Time>2013-10-14T00:22:00+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura1\playerTexture5.png</Source>
+      <Name>Animations\playerAnimation\aura1\playerTexture5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura1\playerTexture5.xnb</Output>
+      <Time>2013-10-14T00:22:02+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura1\playerTexture6.png</Source>
+      <Name>Animations\playerAnimation\aura1\playerTexture6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura1\playerTexture6.xnb</Output>
+      <Time>2013-10-14T00:22:04+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura1\playerTexture7.png</Source>
+      <Name>Animations\playerAnimation\aura1\playerTexture7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura1\playerTexture7.xnb</Output>
+      <Time>2013-10-14T00:22:04+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura1\playerTexture8.png</Source>
+      <Name>Animations\playerAnimation\aura1\playerTexture8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura1\playerTexture8.xnb</Output>
+      <Time>2013-10-14T00:22:06+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura1\playerTexture9.png</Source>
+      <Name>Animations\playerAnimation\aura1\playerTexture9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura1\playerTexture9.xnb</Output>
+      <Time>2013-10-14T00:22:06+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura2\playerTexture0.png</Source>
+      <Name>Animations\playerAnimation\aura2\playerTexture0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura2\playerTexture0.xnb</Output>
+      <Time>2013-10-14T00:22:08+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura2\playerTexture1.png</Source>
+      <Name>Animations\playerAnimation\aura2\playerTexture1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura2\playerTexture1.xnb</Output>
+      <Time>2013-10-14T00:22:08+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura2\playerTexture10.png</Source>
+      <Name>Animations\playerAnimation\aura2\playerTexture10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura2\playerTexture10.xnb</Output>
+      <Time>2013-10-14T00:22:10+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura2\playerTexture11.png</Source>
+      <Name>Animations\playerAnimation\aura2\playerTexture11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura2\playerTexture11.xnb</Output>
+      <Time>2013-10-14T00:22:12+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura2\playerTexture12.png</Source>
+      <Name>Animations\playerAnimation\aura2\playerTexture12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura2\playerTexture12.xnb</Output>
+      <Time>2013-10-14T00:22:12+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura2\playerTexture13.png</Source>
+      <Name>Animations\playerAnimation\aura2\playerTexture13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura2\playerTexture13.xnb</Output>
+      <Time>2013-10-14T00:22:14+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura2\playerTexture14.png</Source>
+      <Name>Animations\playerAnimation\aura2\playerTexture14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura2\playerTexture14.xnb</Output>
+      <Time>2013-10-14T00:22:16+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura2\playerTexture15.png</Source>
+      <Name>Animations\playerAnimation\aura2\playerTexture15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura2\playerTexture15.xnb</Output>
+      <Time>2013-10-14T00:22:16+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura2\playerTexture16.png</Source>
+      <Name>Animations\playerAnimation\aura2\playerTexture16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura2\playerTexture16.xnb</Output>
+      <Time>2013-10-14T00:22:18+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura2\playerTexture17.png</Source>
+      <Name>Animations\playerAnimation\aura2\playerTexture17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura2\playerTexture17.xnb</Output>
+      <Time>2013-10-14T00:22:18+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura2\playerTexture18.png</Source>
+      <Name>Animations\playerAnimation\aura2\playerTexture18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura2\playerTexture18.xnb</Output>
+      <Time>2013-10-14T00:22:20+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura2\playerTexture2.png</Source>
+      <Name>Animations\playerAnimation\aura2\playerTexture2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura2\playerTexture2.xnb</Output>
+      <Time>2013-10-14T00:22:22+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura2\playerTexture3.png</Source>
+      <Name>Animations\playerAnimation\aura2\playerTexture3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura2\playerTexture3.xnb</Output>
+      <Time>2013-10-14T00:22:22+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura2\playerTexture4.png</Source>
+      <Name>Animations\playerAnimation\aura2\playerTexture4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura2\playerTexture4.xnb</Output>
+      <Time>2013-10-14T00:22:24+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura2\playerTexture5.png</Source>
+      <Name>Animations\playerAnimation\aura2\playerTexture5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura2\playerTexture5.xnb</Output>
+      <Time>2013-10-14T00:22:26+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura2\playerTexture6.png</Source>
+      <Name>Animations\playerAnimation\aura2\playerTexture6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura2\playerTexture6.xnb</Output>
+      <Time>2013-10-14T00:22:26+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura2\playerTexture7.png</Source>
+      <Name>Animations\playerAnimation\aura2\playerTexture7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura2\playerTexture7.xnb</Output>
+      <Time>2013-10-14T00:22:28+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura2\playerTexture8.png</Source>
+      <Name>Animations\playerAnimation\aura2\playerTexture8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura2\playerTexture8.xnb</Output>
+      <Time>2013-10-14T00:22:30+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura2\playerTexture9.png</Source>
+      <Name>Animations\playerAnimation\aura2\playerTexture9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura2\playerTexture9.xnb</Output>
+      <Time>2013-10-14T00:22:32+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura3\playerTexture0.png</Source>
+      <Name>Animations\playerAnimation\aura3\playerTexture0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura3\playerTexture0.xnb</Output>
+      <Time>2013-10-14T00:22:34+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura3\playerTexture1.png</Source>
+      <Name>Animations\playerAnimation\aura3\playerTexture1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura3\playerTexture1.xnb</Output>
+      <Time>2013-10-14T00:22:34+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura3\playerTexture10.png</Source>
+      <Name>Animations\playerAnimation\aura3\playerTexture10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura3\playerTexture10.xnb</Output>
+      <Time>2013-10-14T00:22:36+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura3\playerTexture11.png</Source>
+      <Name>Animations\playerAnimation\aura3\playerTexture11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura3\playerTexture11.xnb</Output>
+      <Time>2013-10-14T00:22:36+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura3\playerTexture12.png</Source>
+      <Name>Animations\playerAnimation\aura3\playerTexture12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura3\playerTexture12.xnb</Output>
+      <Time>2013-10-14T00:22:38+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura3\playerTexture13.png</Source>
+      <Name>Animations\playerAnimation\aura3\playerTexture13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura3\playerTexture13.xnb</Output>
+      <Time>2013-10-14T00:22:40+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura3\playerTexture14.png</Source>
+      <Name>Animations\playerAnimation\aura3\playerTexture14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura3\playerTexture14.xnb</Output>
+      <Time>2013-10-14T00:22:40+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura3\playerTexture15.png</Source>
+      <Name>Animations\playerAnimation\aura3\playerTexture15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura3\playerTexture15.xnb</Output>
+      <Time>2013-10-14T00:22:42+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura3\playerTexture16.png</Source>
+      <Name>Animations\playerAnimation\aura3\playerTexture16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura3\playerTexture16.xnb</Output>
+      <Time>2013-10-14T00:22:44+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura3\playerTexture17.png</Source>
+      <Name>Animations\playerAnimation\aura3\playerTexture17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura3\playerTexture17.xnb</Output>
+      <Time>2013-10-14T00:22:44+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura3\playerTexture18.png</Source>
+      <Name>Animations\playerAnimation\aura3\playerTexture18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura3\playerTexture18.xnb</Output>
+      <Time>2013-10-14T00:22:46+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura3\playerTexture2.png</Source>
+      <Name>Animations\playerAnimation\aura3\playerTexture2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura3\playerTexture2.xnb</Output>
+      <Time>2013-10-14T00:22:46+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura3\playerTexture3.png</Source>
+      <Name>Animations\playerAnimation\aura3\playerTexture3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura3\playerTexture3.xnb</Output>
+      <Time>2013-10-14T00:22:48+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura3\playerTexture4.png</Source>
+      <Name>Animations\playerAnimation\aura3\playerTexture4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura3\playerTexture4.xnb</Output>
+      <Time>2013-10-14T12:33:24+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura3\playerTexture5.png</Source>
+      <Name>Animations\playerAnimation\aura3\playerTexture5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura3\playerTexture5.xnb</Output>
+      <Time>2013-10-14T00:22:50+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura3\playerTexture6.png</Source>
+      <Name>Animations\playerAnimation\aura3\playerTexture6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura3\playerTexture6.xnb</Output>
+      <Time>2013-10-14T00:22:52+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura3\playerTexture7.png</Source>
+      <Name>Animations\playerAnimation\aura3\playerTexture7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura3\playerTexture7.xnb</Output>
+      <Time>2013-10-14T00:22:52+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura3\playerTexture8.png</Source>
+      <Name>Animations\playerAnimation\aura3\playerTexture8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura3\playerTexture8.xnb</Output>
+      <Time>2013-10-14T00:22:54+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\aura3\playerTexture9.png</Source>
+      <Name>Animations\playerAnimation\aura3\playerTexture9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\aura3\playerTexture9.xnb</Output>
+      <Time>2013-10-14T00:22:54+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\death-left\playerTexture0.png</Source>
+      <Name>Animations\playerAnimation\death-left\playerTexture0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\death-left\playerTexture0.xnb</Output>
+      <Time>2013-10-14T00:22:56+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\death-left\playerTexture1.png</Source>
+      <Name>Animations\playerAnimation\death-left\playerTexture1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\death-left\playerTexture1.xnb</Output>
+      <Time>2013-10-14T00:22:58+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\death-left\playerTexture2.png</Source>
+      <Name>Animations\playerAnimation\death-left\playerTexture2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\death-left\playerTexture2.xnb</Output>
+      <Time>2013-10-14T00:23:00+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\death-left\playerTexture3.png</Source>
+      <Name>Animations\playerAnimation\death-left\playerTexture3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\death-left\playerTexture3.xnb</Output>
+      <Time>2013-10-14T00:23:02+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\death-left\playerTexture4.png</Source>
+      <Name>Animations\playerAnimation\death-left\playerTexture4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\death-left\playerTexture4.xnb</Output>
+      <Time>2013-10-14T00:23:06+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\death-left\playerTexture5.png</Source>
+      <Name>Animations\playerAnimation\death-left\playerTexture5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\death-left\playerTexture5.xnb</Output>
+      <Time>2013-10-14T00:23:08+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\death-left\playerTexture6.png</Source>
+      <Name>Animations\playerAnimation\death-left\playerTexture6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\death-left\playerTexture6.xnb</Output>
+      <Time>2013-10-14T00:23:10+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\death-right\playerTexture0.png</Source>
+      <Name>Animations\playerAnimation\death-right\playerTexture0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\death-right\playerTexture0.xnb</Output>
+      <Time>2013-10-14T00:23:12+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\death-right\playerTexture1.png</Source>
+      <Name>Animations\playerAnimation\death-right\playerTexture1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\death-right\playerTexture1.xnb</Output>
+      <Time>2013-10-14T00:23:14+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\death-right\playerTexture2.png</Source>
+      <Name>Animations\playerAnimation\death-right\playerTexture2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\death-right\playerTexture2.xnb</Output>
+      <Time>2013-10-14T00:23:14+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\death-right\playerTexture3.png</Source>
+      <Name>Animations\playerAnimation\death-right\playerTexture3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\death-right\playerTexture3.xnb</Output>
+      <Time>2013-10-14T00:23:16+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\death-right\playerTexture4.png</Source>
+      <Name>Animations\playerAnimation\death-right\playerTexture4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\death-right\playerTexture4.xnb</Output>
+      <Time>2013-10-14T00:23:18+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\death-right\playerTexture5.png</Source>
+      <Name>Animations\playerAnimation\death-right\playerTexture5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\death-right\playerTexture5.xnb</Output>
+      <Time>2013-10-14T00:23:20+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\death-right\playerTexture6.png</Source>
+      <Name>Animations\playerAnimation\death-right\playerTexture6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\death-right\playerTexture6.xnb</Output>
+      <Time>2013-10-14T00:23:22+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\down-left\playerTexture0.png</Source>
+      <Name>Animations\playerAnimation\down-left\playerTexture0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\down-left\playerTexture0.xnb</Output>
+      <Time>2013-10-14T00:23:24+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\down-left\playerTexture1.png</Source>
+      <Name>Animations\playerAnimation\down-left\playerTexture1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\down-left\playerTexture1.xnb</Output>
+      <Time>2013-10-14T00:23:26+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\down-left\playerTexture2.png</Source>
+      <Name>Animations\playerAnimation\down-left\playerTexture2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\down-left\playerTexture2.xnb</Output>
+      <Time>2013-10-14T00:23:38+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\down-left\playerTexture3.png</Source>
+      <Name>Animations\playerAnimation\down-left\playerTexture3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\down-left\playerTexture3.xnb</Output>
+      <Time>2013-10-14T00:23:40+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\down-left\playerTexture4.png</Source>
+      <Name>Animations\playerAnimation\down-left\playerTexture4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\down-left\playerTexture4.xnb</Output>
+      <Time>2013-10-14T00:23:42+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\down-left\playerTexture5.png</Source>
+      <Name>Animations\playerAnimation\down-left\playerTexture5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\down-left\playerTexture5.xnb</Output>
+      <Time>2013-10-14T00:23:44+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\down-right\playerTexture0.png</Source>
+      <Name>Animations\playerAnimation\down-right\playerTexture0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\down-right\playerTexture0.xnb</Output>
+      <Time>2013-10-14T00:23:48+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\down-right\playerTexture1.png</Source>
+      <Name>Animations\playerAnimation\down-right\playerTexture1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\down-right\playerTexture1.xnb</Output>
+      <Time>2013-10-14T00:23:50+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\down-right\playerTexture2.png</Source>
+      <Name>Animations\playerAnimation\down-right\playerTexture2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\down-right\playerTexture2.xnb</Output>
+      <Time>2013-10-14T00:23:50+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\down-right\playerTexture3.png</Source>
+      <Name>Animations\playerAnimation\down-right\playerTexture3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\down-right\playerTexture3.xnb</Output>
+      <Time>2013-10-14T00:23:52+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\down-right\playerTexture4.png</Source>
+      <Name>Animations\playerAnimation\down-right\playerTexture4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\down-right\playerTexture4.xnb</Output>
+      <Time>2013-10-14T00:23:54+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\down-right\playerTexture5.png</Source>
+      <Name>Animations\playerAnimation\down-right\playerTexture5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\down-right\playerTexture5.xnb</Output>
+      <Time>2013-10-14T00:23:56+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\leftWall0.png</Source>
+      <Name>Animations\playerAnimation\leftWall0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\leftWall0.xnb</Output>
+      <Time>2013-10-14T00:20:24+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\leftWall2.png</Source>
+      <Name>Animations\playerAnimation\leftWall2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\leftWall2.xnb</Output>
+      <Time>2013-10-14T00:20:26+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\left\playerTexture0.png</Source>
+      <Name>Animations\playerAnimation\left\playerTexture0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\left\playerTexture0.xnb</Output>
+      <Time>2013-10-14T00:23:58+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\left\playerTexture1.png</Source>
+      <Name>Animations\playerAnimation\left\playerTexture1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\left\playerTexture1.xnb</Output>
+      <Time>2013-10-14T00:24:02+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\left\playerTexture10.png</Source>
+      <Name>Animations\playerAnimation\left\playerTexture10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\left\playerTexture10.xnb</Output>
+      <Time>2013-10-14T00:24:04+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\left\playerTexture11.png</Source>
+      <Name>Animations\playerAnimation\left\playerTexture11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\left\playerTexture11.xnb</Output>
+      <Time>2013-10-14T00:24:04+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\left\playerTexture12.png</Source>
+      <Name>Animations\playerAnimation\left\playerTexture12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\left\playerTexture12.xnb</Output>
+      <Time>2013-10-14T00:24:06+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\left\playerTexture13.png</Source>
+      <Name>Animations\playerAnimation\left\playerTexture13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\left\playerTexture13.xnb</Output>
+      <Time>2013-10-14T00:24:08+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\left\playerTexture2.png</Source>
+      <Name>Animations\playerAnimation\left\playerTexture2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\left\playerTexture2.xnb</Output>
+      <Time>2013-10-14T00:24:08+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\left\playerTexture3.png</Source>
+      <Name>Animations\playerAnimation\left\playerTexture3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\left\playerTexture3.xnb</Output>
+      <Time>2013-10-14T00:24:10+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\left\playerTexture4.png</Source>
+      <Name>Animations\playerAnimation\left\playerTexture4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\left\playerTexture4.xnb</Output>
+      <Time>2013-10-14T00:24:12+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\left\playerTexture5.png</Source>
+      <Name>Animations\playerAnimation\left\playerTexture5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\left\playerTexture5.xnb</Output>
+      <Time>2013-10-14T00:24:14+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\left\playerTexture6.png</Source>
+      <Name>Animations\playerAnimation\left\playerTexture6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\left\playerTexture6.xnb</Output>
+      <Time>2013-10-14T00:24:14+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\left\playerTexture7.png</Source>
+      <Name>Animations\playerAnimation\left\playerTexture7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\left\playerTexture7.xnb</Output>
+      <Time>2013-10-14T00:24:16+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\left\playerTexture8.png</Source>
+      <Name>Animations\playerAnimation\left\playerTexture8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\left\playerTexture8.xnb</Output>
+      <Time>2013-10-14T00:24:18+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\left\playerTexture9.png</Source>
+      <Name>Animations\playerAnimation\left\playerTexture9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\left\playerTexture9.xnb</Output>
+      <Time>2013-10-14T00:24:20+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\right2\playerTexture0.png</Source>
+      <Name>Animations\playerAnimation\right2\playerTexture0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\right2\playerTexture0.xnb</Output>
+      <Time>2013-10-14T00:24:46+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\right2\playerTexture1.png</Source>
+      <Name>Animations\playerAnimation\right2\playerTexture1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\right2\playerTexture1.xnb</Output>
+      <Time>2013-10-14T00:24:48+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\right2\playerTexture10.png</Source>
+      <Name>Animations\playerAnimation\right2\playerTexture10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\right2\playerTexture10.xnb</Output>
+      <Time>2013-10-14T00:24:50+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\right2\playerTexture11.png</Source>
+      <Name>Animations\playerAnimation\right2\playerTexture11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\right2\playerTexture11.xnb</Output>
+      <Time>2013-10-14T00:24:58+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\right2\playerTexture12.png</Source>
+      <Name>Animations\playerAnimation\right2\playerTexture12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\right2\playerTexture12.xnb</Output>
+      <Time>2013-10-14T00:25:02+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\right2\playerTexture13.png</Source>
+      <Name>Animations\playerAnimation\right2\playerTexture13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\right2\playerTexture13.xnb</Output>
+      <Time>2013-10-14T00:25:02+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\right2\playerTexture2.png</Source>
+      <Name>Animations\playerAnimation\right2\playerTexture2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\right2\playerTexture2.xnb</Output>
+      <Time>2013-10-14T00:25:04+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\right2\playerTexture3.png</Source>
+      <Name>Animations\playerAnimation\right2\playerTexture3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\right2\playerTexture3.xnb</Output>
+      <Time>2013-10-14T00:25:06+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\right2\playerTexture4.png</Source>
+      <Name>Animations\playerAnimation\right2\playerTexture4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\right2\playerTexture4.xnb</Output>
+      <Time>2013-10-14T00:25:06+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\right2\playerTexture5.png</Source>
+      <Name>Animations\playerAnimation\right2\playerTexture5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\right2\playerTexture5.xnb</Output>
+      <Time>2013-10-14T00:25:08+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\right2\playerTexture6.png</Source>
+      <Name>Animations\playerAnimation\right2\playerTexture6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\right2\playerTexture6.xnb</Output>
+      <Time>2013-10-14T00:25:10+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\right2\playerTexture7.png</Source>
+      <Name>Animations\playerAnimation\right2\playerTexture7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\right2\playerTexture7.xnb</Output>
+      <Time>2013-10-14T00:25:10+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\right2\playerTexture8.png</Source>
+      <Name>Animations\playerAnimation\right2\playerTexture8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\right2\playerTexture8.xnb</Output>
+      <Time>2013-10-14T00:25:12+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\right2\playerTexture9.png</Source>
+      <Name>Animations\playerAnimation\right2\playerTexture9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\right2\playerTexture9.xnb</Output>
+      <Time>2013-10-14T00:25:14+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\rightWall0.png</Source>
+      <Name>Animations\playerAnimation\rightWall0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\rightWall0.xnb</Output>
+      <Time>2013-10-14T00:20:28+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\rightWall2.png</Source>
+      <Name>Animations\playerAnimation\rightWall2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\rightWall2.xnb</Output>
+      <Time>2013-10-14T00:20:30+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\right\playerTexture0.png</Source>
+      <Name>Animations\playerAnimation\right\playerTexture0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\right\playerTexture0.xnb</Output>
+      <Time>2013-10-14T00:24:22+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\right\playerTexture1.png</Source>
+      <Name>Animations\playerAnimation\right\playerTexture1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\right\playerTexture1.xnb</Output>
+      <Time>2013-10-14T00:24:24+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\right\playerTexture10.png</Source>
+      <Name>Animations\playerAnimation\right\playerTexture10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\right\playerTexture10.xnb</Output>
+      <Time>2013-10-14T00:24:26+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\right\playerTexture11.png</Source>
+      <Name>Animations\playerAnimation\right\playerTexture11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\right\playerTexture11.xnb</Output>
+      <Time>2013-10-14T00:24:28+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\right\playerTexture12.png</Source>
+      <Name>Animations\playerAnimation\right\playerTexture12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\right\playerTexture12.xnb</Output>
+      <Time>2013-10-14T00:24:28+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\right\playerTexture13.png</Source>
+      <Name>Animations\playerAnimation\right\playerTexture13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\right\playerTexture13.xnb</Output>
+      <Time>2013-10-14T00:24:30+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\right\playerTexture2.png</Source>
+      <Name>Animations\playerAnimation\right\playerTexture2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\right\playerTexture2.xnb</Output>
+      <Time>2013-10-14T00:24:32+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\right\playerTexture3.png</Source>
+      <Name>Animations\playerAnimation\right\playerTexture3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\right\playerTexture3.xnb</Output>
+      <Time>2013-10-14T00:24:32+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\right\playerTexture4.png</Source>
+      <Name>Animations\playerAnimation\right\playerTexture4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\right\playerTexture4.xnb</Output>
+      <Time>2013-10-14T00:24:34+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\right\playerTexture5.png</Source>
+      <Name>Animations\playerAnimation\right\playerTexture5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\right\playerTexture5.xnb</Output>
+      <Time>2013-10-14T00:24:36+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\right\playerTexture6.png</Source>
+      <Name>Animations\playerAnimation\right\playerTexture6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\right\playerTexture6.xnb</Output>
+      <Time>2013-10-14T00:24:38+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\right\playerTexture7.png</Source>
+      <Name>Animations\playerAnimation\right\playerTexture7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\right\playerTexture7.xnb</Output>
+      <Time>2013-10-14T00:24:38+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\right\playerTexture8.png</Source>
+      <Name>Animations\playerAnimation\right\playerTexture8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\right\playerTexture8.xnb</Output>
+      <Time>2013-10-14T00:24:40+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\right\playerTexture9.png</Source>
+      <Name>Animations\playerAnimation\right\playerTexture9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\right\playerTexture9.xnb</Output>
+      <Time>2013-10-14T00:24:42+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\stand\playerTexture0.png</Source>
+      <Name>Animations\playerAnimation\stand\playerTexture0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\stand\playerTexture0.xnb</Output>
+      <Time>2013-10-14T00:25:14+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\stand\playerTexture1.png</Source>
+      <Name>Animations\playerAnimation\stand\playerTexture1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\stand\playerTexture1.xnb</Output>
+      <Time>2013-10-14T00:25:16+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\stand\playerTexture10.png</Source>
+      <Name>Animations\playerAnimation\stand\playerTexture10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\stand\playerTexture10.xnb</Output>
+      <Time>2013-10-14T00:25:18+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\stand\playerTexture11.png</Source>
+      <Name>Animations\playerAnimation\stand\playerTexture11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\stand\playerTexture11.xnb</Output>
+      <Time>2013-10-14T00:25:20+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\stand\playerTexture2.png</Source>
+      <Name>Animations\playerAnimation\stand\playerTexture2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\stand\playerTexture2.xnb</Output>
+      <Time>2013-10-14T00:25:22+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\stand\playerTexture3.png</Source>
+      <Name>Animations\playerAnimation\stand\playerTexture3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\stand\playerTexture3.xnb</Output>
+      <Time>2013-10-14T00:25:24+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\stand\playerTexture4.png</Source>
+      <Name>Animations\playerAnimation\stand\playerTexture4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\stand\playerTexture4.xnb</Output>
+      <Time>2013-10-14T00:25:26+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\stand\playerTexture5.png</Source>
+      <Name>Animations\playerAnimation\stand\playerTexture5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\stand\playerTexture5.xnb</Output>
+      <Time>2013-10-14T00:25:26+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\stand\playerTexture6.png</Source>
+      <Name>Animations\playerAnimation\stand\playerTexture6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\stand\playerTexture6.xnb</Output>
+      <Time>2013-10-14T00:25:28+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\stand\playerTexture7.png</Source>
+      <Name>Animations\playerAnimation\stand\playerTexture7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\stand\playerTexture7.xnb</Output>
+      <Time>2013-10-14T00:25:30+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\stand\playerTexture8.png</Source>
+      <Name>Animations\playerAnimation\stand\playerTexture8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\stand\playerTexture8.xnb</Output>
+      <Time>2013-10-14T00:25:30+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\stand\playerTexture9.png</Source>
+      <Name>Animations\playerAnimation\stand\playerTexture9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\stand\playerTexture9.xnb</Output>
+      <Time>2013-10-14T00:25:32+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\teleport-in\playerTexture0.png</Source>
+      <Name>Animations\playerAnimation\teleport-in\playerTexture0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\teleport-in\playerTexture0.xnb</Output>
+      <Time>2013-10-14T00:25:36+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\teleport-in\playerTexture1.png</Source>
+      <Name>Animations\playerAnimation\teleport-in\playerTexture1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\teleport-in\playerTexture1.xnb</Output>
+      <Time>2013-10-14T00:25:38+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\teleport-in\playerTexture10.png</Source>
+      <Name>Animations\playerAnimation\teleport-in\playerTexture10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\teleport-in\playerTexture10.xnb</Output>
+      <Time>2013-10-14T00:25:38+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\teleport-in\playerTexture11.png</Source>
+      <Name>Animations\playerAnimation\teleport-in\playerTexture11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\teleport-in\playerTexture11.xnb</Output>
+      <Time>2013-10-14T00:25:40+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\teleport-in\playerTexture2.png</Source>
+      <Name>Animations\playerAnimation\teleport-in\playerTexture2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\teleport-in\playerTexture2.xnb</Output>
+      <Time>2013-10-14T00:25:42+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\teleport-in\playerTexture3.png</Source>
+      <Name>Animations\playerAnimation\teleport-in\playerTexture3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\teleport-in\playerTexture3.xnb</Output>
+      <Time>2013-10-14T00:25:42+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\teleport-in\playerTexture4.png</Source>
+      <Name>Animations\playerAnimation\teleport-in\playerTexture4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\teleport-in\playerTexture4.xnb</Output>
+      <Time>2013-10-14T00:25:44+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\teleport-in\playerTexture5.png</Source>
+      <Name>Animations\playerAnimation\teleport-in\playerTexture5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\teleport-in\playerTexture5.xnb</Output>
+      <Time>2013-10-14T00:25:46+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\teleport-in\playerTexture6.png</Source>
+      <Name>Animations\playerAnimation\teleport-in\playerTexture6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\teleport-in\playerTexture6.xnb</Output>
+      <Time>2013-10-14T00:25:46+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\teleport-in\playerTexture7.png</Source>
+      <Name>Animations\playerAnimation\teleport-in\playerTexture7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\teleport-in\playerTexture7.xnb</Output>
+      <Time>2013-10-14T00:25:48+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\teleport-in\playerTexture8.png</Source>
+      <Name>Animations\playerAnimation\teleport-in\playerTexture8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\teleport-in\playerTexture8.xnb</Output>
+      <Time>2013-10-14T00:25:50+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\teleport-in\playerTexture9.png</Source>
+      <Name>Animations\playerAnimation\teleport-in\playerTexture9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\teleport-in\playerTexture9.xnb</Output>
+      <Time>2013-10-14T00:25:52+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\teleport-out\playerTexture0.png</Source>
+      <Name>Animations\playerAnimation\teleport-out\playerTexture0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\teleport-out\playerTexture0.xnb</Output>
+      <Time>2013-10-14T00:25:54+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\teleport-out\playerTexture1.png</Source>
+      <Name>Animations\playerAnimation\teleport-out\playerTexture1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\teleport-out\playerTexture1.xnb</Output>
+      <Time>2013-10-14T00:25:54+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\teleport-out\playerTexture10.png</Source>
+      <Name>Animations\playerAnimation\teleport-out\playerTexture10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\teleport-out\playerTexture10.xnb</Output>
+      <Time>2013-10-14T00:25:56+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\teleport-out\playerTexture11.png</Source>
+      <Name>Animations\playerAnimation\teleport-out\playerTexture11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\teleport-out\playerTexture11.xnb</Output>
+      <Time>2013-10-14T00:25:58+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\teleport-out\playerTexture2.png</Source>
+      <Name>Animations\playerAnimation\teleport-out\playerTexture2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\teleport-out\playerTexture2.xnb</Output>
+      <Time>2013-10-14T00:26:00+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\teleport-out\playerTexture3.png</Source>
+      <Name>Animations\playerAnimation\teleport-out\playerTexture3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\teleport-out\playerTexture3.xnb</Output>
+      <Time>2013-10-14T00:26:00+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\teleport-out\playerTexture4.png</Source>
+      <Name>Animations\playerAnimation\teleport-out\playerTexture4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\teleport-out\playerTexture4.xnb</Output>
+      <Time>2013-10-14T00:26:02+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\teleport-out\playerTexture5.png</Source>
+      <Name>Animations\playerAnimation\teleport-out\playerTexture5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\teleport-out\playerTexture5.xnb</Output>
+      <Time>2013-10-14T00:26:02+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\teleport-out\playerTexture6.png</Source>
+      <Name>Animations\playerAnimation\teleport-out\playerTexture6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\teleport-out\playerTexture6.xnb</Output>
+      <Time>2013-10-14T00:26:04+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\teleport-out\playerTexture7.png</Source>
+      <Name>Animations\playerAnimation\teleport-out\playerTexture7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\teleport-out\playerTexture7.xnb</Output>
+      <Time>2013-10-14T00:26:06+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\teleport-out\playerTexture8.png</Source>
+      <Name>Animations\playerAnimation\teleport-out\playerTexture8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\teleport-out\playerTexture8.xnb</Output>
+      <Time>2013-10-14T00:26:06+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\teleport-out\playerTexture9.png</Source>
+      <Name>Animations\playerAnimation\teleport-out\playerTexture9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\teleport-out\playerTexture9.xnb</Output>
+      <Time>2013-10-14T00:26:14+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\up-left\playerTexture0.png</Source>
+      <Name>Animations\playerAnimation\up-left\playerTexture0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\up-left\playerTexture0.xnb</Output>
+      <Time>2013-10-14T00:26:16+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\up-left\playerTexture1.png</Source>
+      <Name>Animations\playerAnimation\up-left\playerTexture1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\up-left\playerTexture1.xnb</Output>
+      <Time>2013-10-14T00:26:16+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\up-left\playerTexture2.png</Source>
+      <Name>Animations\playerAnimation\up-left\playerTexture2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\up-left\playerTexture2.xnb</Output>
+      <Time>2013-10-14T00:26:18+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\up-left\playerTexture3.png</Source>
+      <Name>Animations\playerAnimation\up-left\playerTexture3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\up-left\playerTexture3.xnb</Output>
+      <Time>2013-10-14T00:26:18+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\up-left\playerTexture4.png</Source>
+      <Name>Animations\playerAnimation\up-left\playerTexture4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\up-left\playerTexture4.xnb</Output>
+      <Time>2013-10-14T00:26:20+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\up-right\playerTexture0.png</Source>
+      <Name>Animations\playerAnimation\up-right\playerTexture0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\up-right\playerTexture0.xnb</Output>
+      <Time>2013-10-14T00:26:24+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\up-right\playerTexture1.png</Source>
+      <Name>Animations\playerAnimation\up-right\playerTexture1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\up-right\playerTexture1.xnb</Output>
+      <Time>2013-10-14T00:26:24+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\up-right\playerTexture2.png</Source>
+      <Name>Animations\playerAnimation\up-right\playerTexture2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\up-right\playerTexture2.xnb</Output>
+      <Time>2013-10-14T00:26:26+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\up-right\playerTexture3.png</Source>
+      <Name>Animations\playerAnimation\up-right\playerTexture3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\up-right\playerTexture3.xnb</Output>
+      <Time>2013-10-14T00:26:28+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\up-right\playerTexture4.png</Source>
+      <Name>Animations\playerAnimation\up-right\playerTexture4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\up-right\playerTexture4.xnb</Output>
+      <Time>2013-10-14T00:26:28+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\wall-left\playerTexture0.png</Source>
+      <Name>Animations\playerAnimation\wall-left\playerTexture0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\wall-left\playerTexture0.xnb</Output>
+      <Time>2013-10-14T00:26:32+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\wall-right\playerTexture0.png</Source>
+      <Name>Animations\playerAnimation\wall-right\playerTexture0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\wall-right\playerTexture0.xnb</Output>
+      <Time>2013-10-14T00:26:34+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\wormHole\playerTexture0.png</Source>
+      <Name>Animations\playerAnimation\wormHole\playerTexture0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\wormHole\playerTexture0.xnb</Output>
+      <Time>2013-10-14T00:26:46+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\wormHole\playerTexture1.png</Source>
+      <Name>Animations\playerAnimation\wormHole\playerTexture1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\wormHole\playerTexture1.xnb</Output>
+      <Time>2013-10-14T00:26:46+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\wormHole\playerTexture10.png</Source>
+      <Name>Animations\playerAnimation\wormHole\playerTexture10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\wormHole\playerTexture10.xnb</Output>
+      <Time>2013-10-14T00:26:48+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\wormHole\playerTexture2.png</Source>
+      <Name>Animations\playerAnimation\wormHole\playerTexture2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\wormHole\playerTexture2.xnb</Output>
+      <Time>2013-10-14T00:26:48+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\wormHole\playerTexture3.png</Source>
+      <Name>Animations\playerAnimation\wormHole\playerTexture3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\wormHole\playerTexture3.xnb</Output>
+      <Time>2013-10-14T00:26:50+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\wormHole\playerTexture4.png</Source>
+      <Name>Animations\playerAnimation\wormHole\playerTexture4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\wormHole\playerTexture4.xnb</Output>
+      <Time>2013-10-14T00:26:50+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\wormHole\playerTexture5.png</Source>
+      <Name>Animations\playerAnimation\wormHole\playerTexture5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\wormHole\playerTexture5.xnb</Output>
+      <Time>2013-10-14T00:26:52+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\wormHole\playerTexture6.png</Source>
+      <Name>Animations\playerAnimation\wormHole\playerTexture6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\wormHole\playerTexture6.xnb</Output>
+      <Time>2013-10-14T00:26:54+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\wormHole\playerTexture7.png</Source>
+      <Name>Animations\playerAnimation\wormHole\playerTexture7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\wormHole\playerTexture7.xnb</Output>
+      <Time>2013-10-14T00:26:54+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\wormHole\playerTexture8.png</Source>
+      <Name>Animations\playerAnimation\wormHole\playerTexture8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\wormHole\playerTexture8.xnb</Output>
+      <Time>2013-10-14T00:26:56+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\playerAnimation\wormHole\playerTexture9.png</Source>
+      <Name>Animations\playerAnimation\wormHole\playerTexture9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\playerAnimation\wormHole\playerTexture9.xnb</Output>
+      <Time>2013-10-14T00:26:58+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Player\playerTexture.png</Source>
+      <Name>Animations\Player\playerTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Player\playerTexture.xnb</Output>
+      <Time>2013-10-14T00:20:00+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Player\playerTexture0.png</Source>
+      <Name>Animations\Player\playerTexture0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Player\playerTexture0.xnb</Output>
+      <Time>2013-10-14T00:20:02+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Player\playerTexture1.png</Source>
+      <Name>Animations\Player\playerTexture1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Player\playerTexture1.xnb</Output>
+      <Time>2013-10-14T00:20:04+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Player\playerTexture10.png</Source>
+      <Name>Animations\Player\playerTexture10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Player\playerTexture10.xnb</Output>
+      <Time>2013-10-14T00:20:04+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Player\playerTexture11.png</Source>
+      <Name>Animations\Player\playerTexture11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Player\playerTexture11.xnb</Output>
+      <Time>2013-10-14T00:20:06+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Player\playerTexture12.png</Source>
+      <Name>Animations\Player\playerTexture12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Player\playerTexture12.xnb</Output>
+      <Time>2013-10-14T00:20:08+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Player\playerTexture2.png</Source>
+      <Name>Animations\Player\playerTexture2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Player\playerTexture2.xnb</Output>
+      <Time>2013-10-14T00:20:08+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Player\playerTexture3.png</Source>
+      <Name>Animations\Player\playerTexture3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Player\playerTexture3.xnb</Output>
+      <Time>2013-10-14T00:20:10+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Player\playerTexture4.png</Source>
+      <Name>Animations\Player\playerTexture4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Player\playerTexture4.xnb</Output>
+      <Time>2013-10-14T00:20:12+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Player\playerTexture5.png</Source>
+      <Name>Animations\Player\playerTexture5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Player\playerTexture5.xnb</Output>
+      <Time>2013-10-14T00:20:12+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Player\playerTexture6.png</Source>
+      <Name>Animations\Player\playerTexture6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Player\playerTexture6.xnb</Output>
+      <Time>2013-10-14T00:20:14+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Player\playerTexture7.png</Source>
+      <Name>Animations\Player\playerTexture7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Player\playerTexture7.xnb</Output>
+      <Time>2013-10-14T00:20:14+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Player\playerTexture8.png</Source>
+      <Name>Animations\Player\playerTexture8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Player\playerTexture8.xnb</Output>
+      <Time>2013-10-14T00:20:16+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Player\playerTexture9.png</Source>
+      <Name>Animations\Player\playerTexture9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Player\playerTexture9.xnb</Output>
+      <Time>2013-10-14T00:20:16+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Round Body\bodies\body.png</Source>
+      <Name>Animations\Round Body\bodies\body</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Round Body\bodies\body.xnb</Output>
+      <Time>2013-10-14T00:27:12+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Round Body\bodies\body1.png</Source>
+      <Name>Animations\Round Body\bodies\body1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Round Body\bodies\body1.xnb</Output>
+      <Time>2013-10-14T00:27:14+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Round Body\bodies\body2.png</Source>
+      <Name>Animations\Round Body\bodies\body2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Round Body\bodies\body2.xnb</Output>
+      <Time>2013-10-14T00:27:16+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Round Body\bodies\body3.png</Source>
+      <Name>Animations\Round Body\bodies\body3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Round Body\bodies\body3.xnb</Output>
+      <Time>2013-10-14T00:27:18+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Round Body\bodies\bodyAttached.png</Source>
+      <Name>Animations\Round Body\bodies\bodyAttached</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Round Body\bodies\bodyAttached.xnb</Output>
+      <Time>2013-10-14T00:27:20+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Round Body\bodies\bodyDrag.png</Source>
+      <Name>Animations\Round Body\bodies\bodyDrag</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Round Body\bodies\bodyDrag.xnb</Output>
+      <Time>2013-10-14T00:27:20+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Round Body\bodies\bodyStuck.png</Source>
+      <Name>Animations\Round Body\bodies\bodyStuck</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Round Body\bodies\bodyStuck.xnb</Output>
+      <Time>2013-10-14T00:27:22+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Round Body\bodies\body_clc.png</Source>
+      <Name>Animations\Round Body\bodies\body_clc</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Round Body\bodies\body_clc.xnb</Output>
+      <Time>2013-10-14T00:27:24+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Round Body\bodies\body_cnsl.png</Source>
+      <Name>Animations\Round Body\bodies\body_cnsl</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Round Body\bodies\body_cnsl.xnb</Output>
+      <Time>2013-10-14T00:27:24+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Round Body\bodies\body_ntpd.png</Source>
+      <Name>Animations\Round Body\bodies\body_ntpd</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Round Body\bodies\body_ntpd.xnb</Output>
+      <Time>2013-10-14T00:27:26+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Round Body\bodies\Fisty_body.png</Source>
+      <Name>Animations\Round Body\bodies\Fisty_body</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Round Body\bodies\Fisty_body.xnb</Output>
+      <Time>2013-10-14T00:27:30+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Round Body\bodies\Fisty_body_bg.png</Source>
+      <Name>Animations\Round Body\bodies\Fisty_body_bg</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Round Body\bodies\Fisty_body_bg.xnb</Output>
+      <Time>2013-10-14T00:27:30+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Round Body\bodies\Misty_body.png</Source>
+      <Name>Animations\Round Body\bodies\Misty_body</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Round Body\bodies\Misty_body.xnb</Output>
+      <Time>2013-10-14T00:27:32+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Round Body\gear1blur.png</Source>
+      <Name>Animations\Round Body\gear1blur</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Round Body\gear1blur.xnb</Output>
+      <Time>2013-10-14T00:27:00+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Round Body\gear1blurBlack.png</Source>
+      <Name>Animations\Round Body\gear1blurBlack</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Round Body\gear1blurBlack.xnb</Output>
+      <Time>2013-10-14T00:27:00+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Round Body\gear1blurGray.png</Source>
+      <Name>Animations\Round Body\gear1blurGray</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Round Body\gear1blurGray.xnb</Output>
+      <Time>2013-10-14T00:27:04+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Round Body\wheel1.png</Source>
+      <Name>Animations\Round Body\wheel1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Round Body\wheel1.xnb</Output>
+      <Time>2013-10-14T00:27:04+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Round Body\wheel2.png</Source>
+      <Name>Animations\Round Body\wheel2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Round Body\wheel2.xnb</Output>
+      <Time>2013-10-14T00:27:06+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Round Body\wheel3.png</Source>
+      <Name>Animations\Round Body\wheel3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Round Body\wheel3.xnb</Output>
+      <Time>2013-10-14T00:27:08+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Round Body\windmillPropeller.png</Source>
+      <Name>Animations\Round Body\windmillPropeller</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Round Body\windmillPropeller.xnb</Output>
+      <Time>2013-10-14T00:27:10+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Round Body\windmillPropellerBlur.png</Source>
+      <Name>Animations\Round Body\windmillPropellerBlur</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\Round Body\windmillPropellerBlur.xnb</Output>
+      <Time>2013-10-14T00:27:12+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\roundAnimation\windmillPropeller - Copy.png</Source>
+      <Name>Animations\roundAnimation\windmillPropeller - Copy</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\roundAnimation\windmillPropeller - Copy.xnb</Output>
+      <Time>2013-10-14T00:27:36+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\roundAnimation\windmillPropeller.png</Source>
+      <Name>Animations\roundAnimation\windmillPropeller</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\roundAnimation\windmillPropeller.xnb</Output>
+      <Time>2013-10-14T00:27:36+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\smb load level anim1.png</Source>
+      <Name>Animations\smb load level anim1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\smb load level anim1.xnb</Output>
+      <Time>2013-10-14T00:17:46+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\textureAnimation\dust.png</Source>
+      <Name>Animations\textureAnimation\dust</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\textureAnimation\dust.xnb</Output>
+      <Time>2013-10-14T00:27:38+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\textureAnimation\stand\texture0.png</Source>
+      <Name>Animations\textureAnimation\stand\texture0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\textureAnimation\stand\texture0.xnb</Output>
+      <Time>2013-10-14T00:27:44+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\textureAnimation\texture.png</Source>
+      <Name>Animations\textureAnimation\texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\textureAnimation\texture.xnb</Output>
+      <Time>2013-10-14T00:27:40+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\wormHole.png</Source>
+      <Name>Animations\wormHole</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Animations\wormHole.xnb</Output>
+      <Time>2013-10-14T00:17:48+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Background images\bush.png</Source>
+      <Name>Background images\bush</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Background images\bush.xnb</Output>
+      <Time>2013-10-14T00:27:44+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Background images\cloud1.png</Source>
+      <Name>Background images\cloud1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Background images\cloud1.xnb</Output>
+      <Time>2013-10-14T00:27:46+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Background images\cloud2.png</Source>
+      <Name>Background images\cloud2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Background images\cloud2.xnb</Output>
+      <Time>2013-10-14T00:27:48+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Background images\cloud3.png</Source>
+      <Name>Background images\cloud3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Background images\cloud3.xnb</Output>
+      <Time>2013-10-14T00:27:48+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Background images\cloud4.png</Source>
+      <Name>Background images\cloud4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Background images\cloud4.xnb</Output>
+      <Time>2013-10-14T00:27:50+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Background images\cloud5.png</Source>
+      <Name>Background images\cloud5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Background images\cloud5.xnb</Output>
+      <Time>2013-10-14T00:27:52+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Background images\field.png</Source>
+      <Name>Background images\field</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Background images\field.xnb</Output>
+      <Time>2013-10-14T00:27:52+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Background images\high field.png</Source>
+      <Name>Background images\high field</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Background images\high field.xnb</Output>
+      <Time>2013-10-14T00:27:54+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Background images\mountains.png</Source>
+      <Name>Background images\mountains</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Background images\mountains.xnb</Output>
+      <Time>2013-10-14T00:27:56+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Background images\sky.png</Source>
+      <Name>Background images\sky</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\Background images\sky.xnb</Output>
+      <Time>2013-10-14T00:27:58+03:00</Time>
+    </Item>
+    <Item>
+      <Source>font.spritefont</Source>
+      <Name>font</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\font.xnb</Output>
+      <Time>2013-10-31T09:08:30+02:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game EngineContent\</RootDirectory>
+      <LoggerRootDirectory>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\</LoggerRootDirectory>
+      <IntermediateDirectory>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game EngineContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>D:\Brainstorm Studios\Brainstorm Studios Game Engine 2\Brainstorm Studios Game Engine\Brainstorm Studios Game Engine\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-01-05T12:44:32.2644164+02:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

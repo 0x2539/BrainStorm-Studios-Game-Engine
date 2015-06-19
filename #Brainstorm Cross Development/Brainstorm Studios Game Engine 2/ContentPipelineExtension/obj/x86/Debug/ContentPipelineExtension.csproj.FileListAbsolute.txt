@@ -1,0 +1,5 @@
+D:\Projects\Brainstorm Studios\Brainstorm Studios Game Engine 2\ContentPipelineExtension\bin\x86\Debug\ContentPipelineExtension.dll
+D:\Projects\Brainstorm Studios\Brainstorm Studios Game Engine 2\ContentPipelineExtension\bin\x86\Debug\ContentPipelineExtension.pdb
+D:\Projects\Brainstorm Studios\Brainstorm Studios Game Engine 2\ContentPipelineExtension\obj\x86\Debug\ContentPipelineExtension.csprojResolveAssemblyReference.cache
+D:\Projects\Brainstorm Studios\Brainstorm Studios Game Engine 2\ContentPipelineExtension\obj\x86\Debug\ContentPipelineExtension.dll
+D:\Projects\Brainstorm Studios\Brainstorm Studios Game Engine 2\ContentPipelineExtension\obj\x86\Debug\ContentPipelineExtension.pdb
