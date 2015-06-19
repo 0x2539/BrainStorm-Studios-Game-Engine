@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "1.0">
+   <FileBreakpoints>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "BrainStorm Studios Game Engine/BSTexture.cpp"
+         timestampString = "384802825.666132"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "2068"
+         endingLineNumber = "2068"
+         landmarkName = "BSTexture::renderAnVboAndVaoObject(float coordX, float coorY, GLuint theTextureIdToRender, BSColorRGBA theColorOfObstacle, GLuint theVaoBuffer, float ScaleOnX, float ScaleOnY)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "BrainStorm Studios Game Engine/BSTexture.cpp"
+         timestampString = "384802825.666132"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "2067"
+         endingLineNumber = "2067"
+         landmarkName = "BSTexture::renderAnVboAndVaoObject(float coordX, float coorY, GLuint theTextureIdToRender, BSColorRGBA theColorOfObstacle, GLuint theVaoBuffer, float ScaleOnX, float ScaleOnY)"
+         landmarkType = "5">
+      </FileBreakpoint>
+   </FileBreakpoints>
+</Bucket>

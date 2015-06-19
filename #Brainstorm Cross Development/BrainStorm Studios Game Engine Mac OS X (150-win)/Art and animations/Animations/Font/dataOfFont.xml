@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:aaf939431a1bb5bff12b639ee4956313$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="dataOfFont.png" width="1024" height="1024">
+    <sprite n="0.png" x="616" y="152" w="106" h="150" oX="76" oY="52" oW="256" oH="256"/>
+    <sprite n="1.png" x="798" y="554" w="62" h="146" oX="96" oY="52" oW="256" oH="256"/>
+    <sprite n="2.png" x="922" y="800" w="90" h="144" oX="77" oY="47" oW="256" oH="256"/>
+    <sprite n="3.png" x="742" y="0" w="90" h="148" oX="80" oY="51" oW="256" oH="256"/>
+    <sprite n="4.png" x="690" y="558" w="108" h="148" oX="65" oY="50" oW="256" oH="256"/>
+    <sprite n="5.png" x="554" y="0" w="98" h="152" oX="84" oY="50" oW="256" oH="256"/>
+    <sprite n="6.png" x="348" y="0" w="94" h="154" oX="87" oY="49" oW="256" oH="256"/>
+    <sprite n="7.png" x="596" y="712" w="108" h="148" oX="79" oY="56" oW="256" oH="256"/>
+    <sprite n="8.png" x="722" y="150" w="96" h="148" oX="79" oY="54" oW="256" oH="256"/>
+    <sprite n="9.png" x="198" y="158" w="100" h="154" oX="75" oY="46" oW="256" oH="256"/>
+    <sprite n="A.png" x="866" y="0" w="116" h="142" oX="66" oY="55" oW="256" oH="256"/>
+    <sprite n="B.png" x="518" y="152" w="98" h="152" oX="79" oY="44" oW="256" oH="256"/>
+    <sprite n="C.png" x="704" y="706" w="106" h="146" oX="67" oY="52" oW="256" oH="256"/>
+    <sprite n="D.png" x="0" y="578" w="112" h="156" oX="99" oY="60" oW="256" oH="256"/>
+    <sprite n="E.png" x="64" y="0" w="102" h="160" oX="69" oY="41" oW="256" oH="256"/>
+    <sprite n="F.png" x="100" y="160" w="98" h="158" oX="80" oY="57" oW="256" oH="256"/>
+    <sprite n="G.png" x="298" y="732" w="120" h="154" oX="70" oY="58" oW="256" oH="256"/>
+    <sprite n="H.png" x="174" y="732" w="124" h="154" oX="67" oY="57" oW="256" oH="256"/>
+    <sprite n="I.png" x="860" y="554" w="94" h="144" oX="74" oY="65" oW="256" oH="256"/>
+    <sprite n="J.png" x="158" y="318" w="114" h="154" oX="76" oY="46" oW="256" oH="256"/>
+    <sprite n="K.png" x="250" y="0" w="98" h="154" oX="111" oY="42" oW="256" oH="256"/>
+    <sprite n="L.png" x="298" y="154" w="94" h="154" oX="85" oY="53" oW="256" oH="256"/>
+    <sprite n="M.png" x="318" y="574" w="154" h="152" oX="53" oY="38" oW="256" oH="256"/>
+    <sprite n="N.png" x="366" y="308" w="134" h="152" oX="67" oY="77" oW="256" oH="256"/>
+    <sprite n="O.png" x="556" y="564" w="134" h="148" oX="74" oY="52" oW="256" oH="256"/>
+    <sprite n="P.png" x="510" y="718" w="86" h="150" oX="73" oY="56" oW="256" oH="256"/>
+    <sprite n="Q.png" x="0" y="394" w="158" h="184" oX="43" oY="38" oW="256" oH="256"/>
+    <sprite n="R.png" x="712" y="302" w="106" h="148" oX="75" oY="42" oW="256" oH="256"/>
+    <sprite n="S.png" x="810" y="700" w="112" h="144" oX="83" oY="54" oW="256" oH="256"/>
+    <sprite n="T.png" x="724" y="852" w="128" h="144" oX="89" oY="63" oW="256" oH="256"/>
+    <sprite n="U.png" x="606" y="860" w="118" h="146" oX="59" oY="54" oW="256" oH="256"/>
+    <sprite n="V.png" x="442" y="0" w="112" h="152" oX="69" oY="48" oW="256" oH="256"/>
+    <sprite n="W.png" x="134" y="578" w="184" h="154" oX="32" oY="41" oW="256" oH="256"/>
+    <sprite n="X.png" x="392" y="154" w="126" h="152" oX="59" oY="48" oW="256" oH="256"/>
+    <sprite n="Y.png" x="598" y="304" w="114" h="150" oX="65" oY="61" oW="256" oH="256"/>
+    <sprite n="Z.png" x="482" y="878" w="124" h="146" oX="70" oY="69" oW="256" oH="256"/>
+    <sprite n="a.png" x="604" y="454" w="92" h="104" oX="71" oY="77" oW="256" oH="256"/>
+    <sprite n="'.png" x="100" y="318" w="20" h="50" oX="112" oY="99" oW="256" oH="256"/>
+    <sprite n="b.png" x="418" y="726" w="92" h="152" oX="87" oY="36" oW="256" oH="256"/>
+    <sprite n="c.png" x="448" y="460" w="82" h="106" oX="73" oY="66" oW="256" oH="256"/>
+    <sprite n="d.png" x="272" y="312" w="94" h="154" oX="75" oY="37" oW="256" oH="256"/>
+    <sprite n="e.png" x="922" y="698" w="94" h="102" oX="77" oY="83" oW="256" oH="256"/>
+    <sprite n="f.png" x="18" y="198" w="82" h="166" oX="84" oY="40" oW="256" oH="256"/>
+    <sprite n="g.png" x="652" y="0" w="90" h="150" oX="92" oY="64" oW="256" oH="256"/>
+    <sprite n="h.png" x="0" y="734" w="88" h="156" oX="88" oY="42" oW="256" oH="256"/>
+    <sprite n="i.png" x="852" y="844" w="26" h="142" oX="115" oY="54" oW="256" oH="256"/>
+    <sprite n="j.png" x="0" y="0" w="64" h="198" oX="80" oY="43" oW="256" oH="256"/>
+    <sprite n="k.png" x="88" y="734" w="86" h="156" oX="90" oY="42" oW="256" oH="256"/>
+    <sprite n="l.png" x="112" y="578" w="22" h="156" oX="125" oY="48" oW="256" oH="256"/>
+    <sprite n="m.png" x="0" y="890" w="132" h="116" oX="63" oY="76" oW="256" oH="256"/>
+    <sprite n="n.png" x="294" y="886" w="84" h="110" oX="92" oY="90" oW="256" oH="256"/>
+    <sprite n="o.png" x="782" y="450" w="84" h="104" oX="83" oY="76" oW="256" oH="256"/>
+    <sprite n="p.png" x="166" y="0" w="84" h="158" oX="85" oY="57" oW="256" oH="256"/>
+    <sprite n="..png" x="18" y="364" w="24" h="24" oX="113" oY="137" oW="256" oH="256"/>
+    <sprite n="q.png" x="472" y="566" w="84" h="152" oX="78" oY="58" oW="256" oH="256"/>
+    <sprite n="r.png" x="530" y="458" w="74" h="106" oX="99" oY="76" oW="256" oH="256"/>
+    <sprite n="s.png" x="132" y="890" w="82" h="114" oX="91" oY="66" oW="256" oH="256"/>
+    <sprite n="t.png" x="214" y="886" w="80" h="138" oX="97" oY="57" oW="256" oH="256"/>
+    <sprite n="u.png" x="278" y="466" w="82" h="108" oX="89" oY="86" oW="256" oH="256"/>
+    <sprite n="v.png" x="696" y="454" w="86" h="104" oX="80" oY="84" oW="256" oH="256"/>
+    <sprite n="vertical line - cursor.png" x="0" y="198" w="18" h="196" oX="117" oY="27" oW="256" oH="256"/>
+    <sprite n=",.png" x="120" y="318" w="30" h="46" oX="102" oY="134" oW="256" oH="256"/>
+    <sprite n="w.png" x="158" y="472" w="120" h="106" oX="66" oY="80" oW="256" oH="256"/>
+    <sprite n="x.png" x="378" y="886" w="104" h="108" oX="78" oY="86" oW="256" oH="256"/>
+    <sprite n="y.png" x="500" y="306" w="98" h="152" oX="78" oY="65" oW="256" oH="256"/>
+    <sprite n="z.png" x="360" y="466" w="88" h="106" oX="73" oY="85" oW="256" oH="256"/>
+</TextureAtlas>
