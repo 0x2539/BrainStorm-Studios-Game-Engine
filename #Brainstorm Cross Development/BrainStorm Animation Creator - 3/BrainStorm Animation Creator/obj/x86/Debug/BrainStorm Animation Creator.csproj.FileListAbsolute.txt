@@ -1,0 +1,8 @@
+C:\Users\Alexandru\Desktop\BrainStorm Studios\#Tools\#Animation Creator\BrainStorm Animation Creator\BrainStorm Animation Creator\bin\Debug\BrainStorm Animation Creator.exe
+C:\Users\Alexandru\Desktop\BrainStorm Studios\#Tools\#Animation Creator\BrainStorm Animation Creator\BrainStorm Animation Creator\bin\Debug\BrainStorm Animation Creator.pdb
+C:\Users\Alexandru\Desktop\BrainStorm Studios\#Tools\#Animation Creator\BrainStorm Animation Creator\BrainStorm Animation Creator\obj\x86\Debug\BrainStorm_Animation_Creator.Properties.Resources.resources
+C:\Users\Alexandru\Desktop\BrainStorm Studios\#Tools\#Animation Creator\BrainStorm Animation Creator\BrainStorm Animation Creator\obj\x86\Debug\BrainStorm Animation Creator.csproj.GenerateResource.Cache
+C:\Users\Alexandru\Desktop\BrainStorm Studios\#Tools\#Animation Creator\BrainStorm Animation Creator\BrainStorm Animation Creator\obj\x86\Debug\BrainStorm Animation Creator.exe
+C:\Users\Alexandru\Desktop\BrainStorm Studios\#Tools\#Animation Creator\BrainStorm Animation Creator\BrainStorm Animation Creator\obj\x86\Debug\BrainStorm Animation Creator.pdb
+C:\Users\Alexandru\Desktop\BrainStorm Studios\#Tools\#Animation Creator\BrainStorm Animation Creator\BrainStorm Animation Creator\obj\x86\Debug\BrainStorm_Animation_Creator.Form1.resources
+C:\Users\Alexandru\Desktop\BrainStorm Studios\#Tools\#Animation Creator\BrainStorm Animation Creator\BrainStorm Animation Creator\obj\x86\Debug\BrainStorm Animation Creator.csprojResolveAssemblyReference.cache
