@@ -1,0 +1,5 @@
+BSTexture:
+	renderMyFont()-modified
+	renderSnowFlakes()-modified
+	renderVboAndVao()-modified
+	checkIfSnowFlakesOfBoundary()-removed
