@@ -1,0 +1,11 @@
+0 0 0.5 60 1 floor
+0 0.5 0 1 100 wall
+0 20 2.5 12 3 object
+0 22 5 10 2 object
+0 6 8 10 2 object
+0 6 16 10 10 object
+0 34 18 10 100 object
+0 25 9 10 2 object
+0 19.5 9 1 2 object
+0 10.5 10 1 2 object
+0 22 15 10 2 object

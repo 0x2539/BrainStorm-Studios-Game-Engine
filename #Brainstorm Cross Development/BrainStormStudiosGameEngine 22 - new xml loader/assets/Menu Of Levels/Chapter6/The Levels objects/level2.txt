@@ -1,0 +1,6 @@
+0 playerTexture.png 3 3 1 1 hero playerAnimation
+0 texture.png 0 0 0.5 1300 1 floor textureAnimation
+0 texture.png 0 0.5 0 1 100 wall textureAnimation
+0 texture.png 0 20.5 6 3 10 object textureAnimation
+0 texture.png 2 11.5 9.5 1 1 object textureAnimation
+2 Animations/messageAnimation/cantJump.png 0 7.5 1.5 5 5 message messageAnimation

@@ -1,0 +1,2 @@
+0 Animations/Player/playerTexture.png 3 3 1 1 hero playerAnimation
+0 Animations/textureAnimation/texture.png 0 0 0.5 1300 1 floor textureAnimation

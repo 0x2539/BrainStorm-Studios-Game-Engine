@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="BSActionStuff.cpp" open="1" top="1" tabpos="2">
+		<Cursor position="13582" topLine="572" />
+	</File>
+	<File name="BSActionStuff.h" open="0" top="0" tabpos="10">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="BSAnimationClass.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="BSAnimationClass.h" open="0" top="0" tabpos="7">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="BSInputClass.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="BSInputClass.h" open="0" top="0" tabpos="8">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="BSLevelMenu.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="18792" topLine="425" />
+	</File>
+	<File name="BSLevelMenu.h" open="0" top="0" tabpos="11">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="BSObstacles.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="62690" topLine="1839" />
+	</File>
+	<File name="BSObstacles.h" open="0" top="0" tabpos="8">
+		<Cursor position="3564" topLine="51" />
+	</File>
+	<File name="BSOpenGL.h" open="0" top="0" tabpos="1">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="BSShaderProgram.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="BSTexture.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="137363" topLine="3604" />
+	</File>
+	<File name="BSTexture.h" open="0" top="0" tabpos="6">
+		<Cursor position="4377" topLine="108" />
+	</File>
+	<File name="BSTexturedPolygonProgram2D.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="BSTexturedPolygonProgram2D.h" open="0" top="0" tabpos="5">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="BSUtilities.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="45876" topLine="1560" />
+	</File>
+	<File name="BSUtilities.h" open="0" top="0" tabpos="5">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="BSValues.h" open="0" top="0" tabpos="7">
+		<Cursor position="20748" topLine="590" />
+	</File>
+	<File name="BSXmlFiles.cpp" open="0" top="0" tabpos="11">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="BSXmlFiles.h" open="0" top="0" tabpos="9">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="Shaders/BSTexturedPolygonProgram2D.glfs" open="0" top="0" tabpos="10">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="Shaders/BSTexturedPolygonProgram2D.glvs" open="0" top="0" tabpos="11">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="main.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="18719" topLine="526" />
+	</File>
+	<File name="resources/resource.rc" open="0" top="0" tabpos="10">
+		<Cursor position="0" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

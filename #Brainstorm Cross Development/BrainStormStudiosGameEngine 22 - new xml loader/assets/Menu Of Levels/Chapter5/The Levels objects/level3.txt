@@ -1,0 +1,10 @@
+0 playerTexture.png 3 3 1 1 hero playerAnimation
+0 texture.png 0 0 0.5 1300 1 floor textureAnimation
+0 texture.png 0 0.5 0 1 100 wall textureAnimation
+0 texture.png 0 17.5 2.5 3 3 object textureAnimation
+0 texture.png 0 12.5 6 3 2 object textureAnimation
+0 texture.png 0 23.5 7 9 12 object textureAnimation
+0 texture.png 0 17.5 10 3 2 object textureAnimation
+0 texture.png 1 17.5 8.5 3 1 object textureAnimation
+0 texture.png 0 28.5 8 1 14 object textureAnimation
+0 texture.png 2 24.5 13.5 1 1 object textureAnimation

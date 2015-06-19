@@ -1,0 +1,1 @@
+1 1 level3Texture.png 0.5 0.5 19.5 29.5

@@ -1,0 +1,1 @@
+1 1 level5Texture.png 0.5 0.5 26.5 30.5

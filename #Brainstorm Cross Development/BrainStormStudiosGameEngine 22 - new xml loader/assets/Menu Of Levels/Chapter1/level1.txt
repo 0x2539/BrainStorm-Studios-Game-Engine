@@ -1,0 +1,1 @@
+1 1 level1Texture.png 0 0 28 49

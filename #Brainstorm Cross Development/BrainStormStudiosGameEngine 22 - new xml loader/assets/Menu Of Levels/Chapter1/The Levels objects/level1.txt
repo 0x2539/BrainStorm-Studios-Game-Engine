@@ -1,0 +1,12 @@
+0 Animations/Player/playerTexture.png 3 20 1 1 hero playerAnimation
+1 Animations/roundAnimation/windmillPropeller.png 1 24 4 4 4 object roundAnimation
+0 Animations/textureAnimation/texture.png 0 0 0.5 1300 1 floor textureAnimation
+0 Animations/textureAnimation/texture.png 0 0.5 0 1 100 wall textureAnimation
+0 Animations/textureAnimation/texture.png 0 18.5 13.5 35 7 object textureAnimation
+0 Animations/textureAnimation/texture.png 0 49 13.5 4 25 object textureAnimation
+0 Animations/textureAnimation/texture.png 0 21 18.5 10 3 object textureAnimation
+0 Animations/textureAnimation/texture.png 0 24 2.5 10 3 object textureAnimation
+0 Animations/textureAnimation/texture.png 2 5.5 1.5 1 1 object textureAnimation
+0 Animations/textureAnimation/texture.png 0 25 28 50 4 object textureAnimation
+2 Animations/messageAnimation/killingMill.png 0 37 1.5 5 5 message messageAnimation
+2 Animations/messageAnimation/nextLevel.png 0 10.5 1.5 5 5 message messageAnimation

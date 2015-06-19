@@ -1,0 +1,12 @@
+0 playerTexture.png 3 3 1 1 hero playerAnimation
+0 texture.png 0 0 0.5 60 1 floor textureAnimation
+0 texture.png 0 0.5 0 1 100 wall textureAnimation
+0 texture.png 0 28.5 16 3 40 object textureAnimation
+0 texture.png 0 10 13 18 10 object textureAnimation
+0 texture.png 0 17 27.5 20 11 object textureAnimation
+0 texture.png 0 20 39 40 4 object textureAnimation
+0 texture.png 0 28.5 36.5 3 1 object textureAnimation
+0 texture.png 0 35 18 10 60 object textureAnimation
+0 texture.png 2 25.5 33.5 1 1 object textureAnimation
+2 Animations/messageAnimation/amazingHeights.png 0 6 1.9 5 5 message messageAnimation
+

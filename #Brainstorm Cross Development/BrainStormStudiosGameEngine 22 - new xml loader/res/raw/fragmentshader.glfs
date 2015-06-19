@@ -1,0 +1,10 @@
+precision mediump float;
+uniform sampler2D theActualTexture;
+
+uniform vec4 vColor;
+varying vec2 TexCoordinateGLFS;
+
+void main() 
+{
+    gl_FragColor = texture2D(theActualTexture, TexCoordinateGLFS) * vColor;
+}

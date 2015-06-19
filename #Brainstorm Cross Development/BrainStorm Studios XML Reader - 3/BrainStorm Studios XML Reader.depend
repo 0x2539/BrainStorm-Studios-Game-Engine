@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1382641991 source:/home/alexbuicescu/Documents/#XML/BrainStorm Studios XML Reader/main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+
+1382791652 source:/home/alexbuicescu/Documents/#XML/BrainStorm Studios XML Reader - 2/main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+
+1382798025 source:/home/alexbuicescu/Documents/#XML/BrainStorm Studios XML Reader - 3/main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+

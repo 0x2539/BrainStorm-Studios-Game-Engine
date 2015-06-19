@@ -1,0 +1,591 @@
+#include "BSLevelMenu.h"
+
+BSTexture *renderClassLevel = new BSTexture();
+BSObstacles *obstacleClassLevel = new BSObstacles();
+
+
+void BSLevelMenu::loadLevels(std::string chapterName, ChapterLevelsStructure* theLevelsToAdd[], int nrOfLevels, int chapterIndex)
+{
+	BSXmlFiles *doc = new BSXmlFiles();
+	char theNodes[5][100], theAttributes[1][100];
+	ListaDeCaractere *levelDetails[1000], *levelDetailsAttributes[1];
+	strcpy(theNodes[0], "Chapter_of_level");
+	strcpy(theNodes[1], "Level_details");
+	strcpy(theNodes[2], "Level_index");
+	strcpy(theNodes[3], "Level_texture_name");
+	
+	strcpy(theAttributes[0], "nr");
+	
+	doc->readAnyXML("The Levels/playerDetails" + BStoString(chapterIndex + 1) + ".xml", "Chapter_of_level", "Level_details",
+					levelDetails, theNodes, theAttributes, levelDetailsAttributes, 4, 1);
+    int i = 0;
+	
+    while(i < nrOfLevels)
+    {
+        std::string nameOfTheTexture = "";
+        theLevelsToAdd[i] = new ChapterLevelsStructure;
+        theLevelsToAdd[i]->indexOfLevel = atof(levelDetails[i]->theCharArray2D[2]);///i;
+        theLevelsToAdd[i]->width = Hero_size * 1.7f;// + 0.15;
+        theLevelsToAdd[i]->height = Hero_size * 1.7f;// + 0.15;
+		
+		theLevelsToAdd[i]->textOnLevel =  BStoString(i + 1);
+		
+        chapterName = "Chapter"+BStoString(atof(levelDetailsAttributes[0]->theCharArray2DAttributes[0]));/// BStoString(atof(levelDetails[i]->theCharArray2DAttributes[0]));
+		
+		
+        ///Incarc texturile de conexiune intre theLevelsToAdd, doar pentru primul nivel, ca sa nu incarc memoria ram
+        if(i == 0)
+        {
+            std::string name1 = "Menu Of Levels/" + chapterName + "/connectionLeftRight.png",
+			name2 = "Menu Of Levels/" + chapterName + "/connectionUpDown.png",
+			name3 = "Menu Of Levels/" + chapterName + "/levelFinished.png";
+            const char *name1Char = name1.c_str(), *name2Char = name2.c_str(), *name3Char = name3.c_str();
+			
+			//            std::cout<<name1Char<<' '<<name2Char<<' '<<name3Char<<'\n';
+			
+			
+            renderClassLevel->loadATexture(name1Char, theLevelsToAdd[0]->textureOfConnectionLeftRight);
+            renderClassLevel->loadATexture(name2Char, theLevelsToAdd[0]->textureOfConnectionUpDown);
+            renderClassLevel->loadATexture(name3Char, theLevelsToAdd[0]->textureOfFinishedLevel);
+            renderClassLevel->loadATexture("Menu Of Chapters/buttons menu background.png", theLevelsToAdd[0]->textureOfLevel);
+        }
+		
+		
+        float spaceBetweenLevels = 1.9;
+        ///Pozitionez nivelul
+        if(i % 5 == 0)
+        {
+            ///Il pun cat mai la stanga
+            theLevelsToAdd[i]->xCord = (float) SCREEN_WIDTH / 2 / 16.0f - 2 * (theLevelsToAdd[i]->width + spaceBetweenLevels);//2;
+			
+            ///Verifc daca este pe primul rand sau nu
+            if(i > 0)
+            {
+                theLevelsToAdd[i]->yCord = (float) theLevelsToAdd[i - 1]->yCord - theLevelsToAdd[i]->height - spaceBetweenLevels;
+            }
+            else
+                ///Daca este primul nivel
+            {
+                theLevelsToAdd[i]->yCord = (float) SCREEN_HEIGHT / 2 / 16.0f + 2 * (theLevelsToAdd[i]->height + spaceBetweenLevels) - 1;//SCREEN_HEIGHT / 32 - 2;
+            }
+        }
+        else
+        {
+            theLevelsToAdd[i]->xCord = theLevelsToAdd[i-1]->xCord + theLevelsToAdd[i]->width + spaceBetweenLevels;
+            theLevelsToAdd[i]->yCord = theLevelsToAdd[i-1]->yCord;
+        }
+		
+		theLevelsToAdd[i]->isFinished = 0;///atof(levelDetails[k]->theCharArray2D[2]);
+		theLevelsToAdd[i]->canPlayIt = 0;///atof(levelDetails[k]->theCharArray2D[3]);
+		nameOfTheTexture = levelDetails[i]->theCharArray2D[3];
+		
+		
+        ///Daca e terminat nivelul atunci il fac mai luminos(pe else)
+        if(!theLevelsToAdd[i]->canPlayIt)
+        {
+            theLevelsToAdd[i]->color.r = 0.5f;
+			theLevelsToAdd[i]->color.g = 0.5f;
+			theLevelsToAdd[i]->color.b = 0.5f;
+			theLevelsToAdd[i]->color.a = 1;
+		}
+        else
+        {
+            theLevelsToAdd[i]->color.r = 1;
+			theLevelsToAdd[i]->color.g = 1;
+			theLevelsToAdd[i]->color.b = 1;
+			theLevelsToAdd[i]->color.a = 1;
+        }
+		
+        std::string newText = "Menu Of Levels/" + chapterName +"/The Levels textures/" + nameOfTheTexture;
+		const char *nameOfTheTextureChar = newText.c_str();
+		
+		
+        ///renderClass->loadATexture(nameOfTheTextureChar, theLevelsToAdd[i]->textureOfLevel);
+		
+		theLevelsToAdd[i]->zCord = scaleSizeInitial;
+		
+        i++;
+        ///citesteLevelulCurent.close();
+    }
+	
+    ///Set the animation of the texture that i am going to use to select the level i want to play
+    levelChoserPlayer->width = (Hero_size - 0.4f) * 2.0f;
+    levelChoserPlayer->height = (Hero_size - 0.4f) * 2.0f;
+    levelChoserPlayer->xCord = theLevelsToAdd[0]->xCord;
+    levelChoserPlayer->yCord = theLevelsToAdd[0]->yCord;
+    levelChoserPlayer->color.r = 1;
+	levelChoserPlayer->color.g = 1;
+	levelChoserPlayer->color.b = 1;
+	levelChoserPlayer->color.a = 1;
+	
+	levelChoserPlayer->indexOfLevelThatItIsOn = 0;
+    levelChoserPlayer->canMove = true;
+	
+    std::string levelChooserTextureNameString = "Menu Of Levels/" + chapterName +"/playerTextureLevelChooser.png";
+    const char *levelChooserTextureNameChar = levelChooserTextureNameString.c_str();
+    renderClassLevel->loadATexture(levelChooserTextureNameChar, levelChoserPlayer->texture);
+	
+    levelChoserPlayer->justFinished = false;
+}
+
+void BSLevelMenu::loadChapters()
+{
+    std::string nameOfChapter = "";
+	
+	BSXmlFiles *doc = new BSXmlFiles();
+	char theNodes[8][100], theAttributes[1][100];
+	ListaDeCaractere *levelDetails[1000], *levelDetailsAttributes[1];
+	strcpy(theNodes[0], "Chapter_name");
+	strcpy(theNodes[1], "Chapter_nr_of_levels");
+	strcpy(theNodes[2], "Chapter_is_finished");
+	strcpy(theNodes[3], "Chapter_is_available");
+	strcpy(theNodes[4], "Chapter_x_coord");
+	strcpy(theNodes[5], "Chapter_y_coord");
+	strcpy(theNodes[6], "Chapter_width");
+	strcpy(theNodes[7], "Chapter_height");
+	
+	strcpy(theAttributes[0], "nr_of_chapters");
+	//			strcpy(theAttributes[1], "total_deaths");
+	//			strcpy(theAttributes[2], "total_time");
+	
+	doc->readAnyXML("Menu Of Chapters/gameDetails.xml", "Game_details", "Chapter_details",
+					levelDetails, theNodes, theAttributes, levelDetailsAttributes, 8, 1);
+	
+	nrOfChapters = atof(levelDetailsAttributes[0]->theCharArray2DAttributes[0]);
+	
+	//    citesteChaptere>>nrOfChapters;
+    for(int i = 0 ; i < nrOfChapters ; i++)
+    {
+        chaptere[i] = new ChapterStructure;
+		//        citesteChaptere>>nameOfChapter>>chaptere[i]->nrOfLevels>>chaptere[i]->isAvailableChapter>>chaptere[i]->isFinishedChapter>>
+		//                       chaptere[i]->xCord>>chaptere[i]->yCord>>chaptere[i]->width>>chaptere[i]->height;
+		
+		nameOfChapter = levelDetails[i]->theCharArray2D[0];
+		chaptere[i]->nrOfLevels = atof(levelDetails[i]->theCharArray2D[1]);
+		chaptere[i]->isFinishedChapter = atof(levelDetails[i]->theCharArray2D[2]);
+		chaptere[i]->isAvailableChapter = atof(levelDetails[i]->theCharArray2D[3]);
+		chaptere[i]->xCord = atof(levelDetails[i]->theCharArray2D[4]);
+		chaptere[i]->yCord = atof(levelDetails[i]->theCharArray2D[5]);
+		chaptere[i]->width = (atof(levelDetails[i]->theCharArray2D[6])) * 1.8f;
+		chaptere[i]->height = (atof(levelDetails[i]->theCharArray2D[7])) * 1.8f;
+		
+		chaptere[i]->textOnChapter =  BStoString(i + 1);
+		
+		chaptere[i]->xCord *= (float) (SCREEN_WIDTH / 20);
+		chaptere[i]->xCord += 1;
+		
+		chaptere[i]->yCord *= (float) (SCREEN_HEIGHT / 20);
+		chaptere[i]->zCord = scaleSizeInitial;
+		
+		chaptere[i]->color.r = 1;
+		chaptere[i]->color.g = 1;
+		chaptere[i]->color.b = 1;
+		chaptere[i]->color.a = 1;
+		
+		
+		
+        loadLevels(nameOfChapter, chaptere[i]->levelFromChapter, chaptere[i]->nrOfLevels, i);
+		
+        std::string textureName = "Menu Of Chapters/The Chapters textures/chapterTexture" + BStoString(i + 1) + ".png";
+        renderClassLevel->loadATexture(textureName.c_str(), chaptere[i]->texture);
+		
+        levelChoserPlayer->indexOfChapterThatItIsOn = 0;
+		
+		//        if(!i)
+		{
+			renderClassLevel->loadATexture("Menu Of Chapters/connectionLeftRight.png",
+									  chaptere[i]->levelFromChapter[0]->textureOfConnectionLeftRightChapter);
+			
+			
+			renderClassLevel->loadATexture("Menu Of Chapters/connectionUpDown.png",
+									  chaptere[i]->levelFromChapter[0]->textureOfConnectionUpDownChapter);
+		}
+		levelChoserPlayer->xCord = chaptere[0]->xCord;
+		levelChoserPlayer->yCord = chaptere[0]->yCord;
+		levelChoserPlayer->zCord = scaleSizeInitial;
+    }
+	
+	loadUserData();
+}
+
+
+void BSLevelMenu::loadUserData()
+{
+	for(int i = 0; i < 6; i++)
+	{
+		std::string file = "Saves/playerData" + BStoString(i + 1) + ".txt";
+		//std::ifstream fin(file.c_str());
+		int chapterIndex, nrOfCurrentLevels, levelIndex, done, available;
+		
+		std::string els[1000];
+		int elsNR = 0;
+		getStringArray(file, els);
+		
+		//fin>>chapterIndex>>nrOfCurrentLevels;
+        
+		chapterIndex = atof(els[elsNR].c_str());
+		elsNR++;
+		nrOfCurrentLevels = atof(els[elsNR].c_str());
+		elsNR++;
+		
+		for(int j = 0 ; j < nrOfCurrentLevels; j++)
+		{
+            
+			//fin>>levelIndex;
+			//fin>>chaptere[i]->levelFromChapter[j]->isFinished>>
+            //chaptere[i]->levelFromChapter[j]->canPlayIt;
+			
+			levelIndex = atof(els[elsNR].c_str());
+			elsNR++;
+			//std::cout<<j<<'\n';
+			
+			if(atof(els[elsNR].c_str()) == 1)
+			{
+				chaptere[i]->levelFromChapter[j]->isFinished = true;
+			}
+			else
+			{
+				chaptere[i]->levelFromChapter[j]->isFinished = false;
+			}
+			elsNR++;
+			
+			if(atof(els[elsNR].c_str()) == 1)
+			{
+				chaptere[i]->levelFromChapter[j]->canPlayIt = true;
+			}
+			else
+			{
+				chaptere[i]->levelFromChapter[j]->canPlayIt = false;
+			}
+			//chaptere[i]->levelFromChapter[j]->canPlayIt = atof(els[elsNR].c_str());
+			elsNR++;
+			
+			if(chaptere[i]->levelFromChapter[j]->canPlayIt)
+			{
+				//chaptere[i]->levelFromChapter[j]->color = {1, 1, 1, 1};
+				chaptere[i]->levelFromChapter[j]->color.r = 1;
+				chaptere[i]->levelFromChapter[j]->color.g = 1;
+				chaptere[i]->levelFromChapter[j]->color.b = 1;
+				chaptere[i]->levelFromChapter[j]->color.a = 1;
+			}
+            //			std::cout<<levelIndex<<" "<<chaptere[i]->levelFromChapter[j]->isFinished<<" "<<chaptere[i]->levelFromChapter[j]->canPlayIt<<'\n';
+		}
+        //		std::cout<<'\n';
+        
+		//fin.close();
+	}
+}
+
+
+void BSLevelMenu::walkThroughLevels(int leftRight, int UpDown, ChapterLevelsStructure* theLevelsToAdd[])
+{
+    ///In caz ca se afla in meniul de nivele, si jucatorul nu se misca (ceea ce inseamna ca poate alege un nivel)
+    if(currentMenu->indexOfMenu == 4 && levelChoserPlayer->canMove)
+    {
+        ///In caz ca merge la stanga
+        if(leftRight == -1 && levelChoserPlayer->indexOfLevelThatItIsOn > 0)
+        {
+            ///In caz ca nu este primul de pe rand
+            if( levelChoserPlayer->indexOfLevelThatItIsOn % 5 != 0
+			   && theLevelsToAdd[levelChoserPlayer->indexOfLevelThatItIsOn - 1]->canPlayIt)
+            {
+                levelChoserPlayer->indexOfLevelThatItIsOn--;
+                levelChoserPlayer->canMove = false;
+                levelChoserPlayer->isMovingLeftRight = -1;
+                levelChoserPlayer->isMovingUpDown = 0;
+            }
+        }
+        else
+            ///In caz ca merge la stanga
+            if(leftRight == 1 && levelChoserPlayer->indexOfLevelThatItIsOn < 25
+			   && theLevelsToAdd[levelChoserPlayer->indexOfLevelThatItIsOn + 1]->canPlayIt)
+            {
+                if( (levelChoserPlayer->indexOfLevelThatItIsOn + 1) % 5 != 0 )
+                {
+                    levelChoserPlayer->indexOfLevelThatItIsOn++;
+                    levelChoserPlayer->canMove = false;
+                    levelChoserPlayer->isMovingLeftRight = 1;
+                    levelChoserPlayer->isMovingUpDown = 0;
+                }
+            }
+            else
+                ///In caz ca merge sus
+                if(UpDown == 1 && levelChoserPlayer->indexOfLevelThatItIsOn > 4
+				   && theLevelsToAdd[levelChoserPlayer->indexOfLevelThatItIsOn - 5]->canPlayIt)
+                {
+                    //if( (levelChoserPlayer->indexOfLevelThatItIsOn - 5) % 5 != 0 )
+                    {
+                        levelChoserPlayer->indexOfLevelThatItIsOn -= 5;
+                        levelChoserPlayer->canMove = false;
+                        levelChoserPlayer->isMovingLeftRight = 0;
+                        levelChoserPlayer->isMovingUpDown = 1;
+                    }
+                }
+                else
+                    ///In caz ca merge jos
+                    if(UpDown == -1 && levelChoserPlayer->indexOfLevelThatItIsOn < 20
+					   && theLevelsToAdd[levelChoserPlayer->indexOfLevelThatItIsOn + 5]->canPlayIt)
+                    {
+                        //if( (levelChoserPlayer->indexOfLevelThatItIsOn + 5) % 5 != 0 )
+                        {
+                            levelChoserPlayer->indexOfLevelThatItIsOn += 5;
+                            levelChoserPlayer->canMove = false;
+                            levelChoserPlayer->isMovingLeftRight = 0;
+                            levelChoserPlayer->isMovingUpDown = -1;
+                        }
+                    }
+    }
+    else
+        ///In caz ca jucatorul inca se misca ca sa ajunga la nivel
+        if(!levelChoserPlayer->canMove && currentMenu->indexOfMenu == 4)
+        {
+            int indexOfWantedLevel = levelChoserPlayer->indexOfLevelThatItIsOn;
+            walkingAnimation(theLevelsToAdd[indexOfWantedLevel]->xCord,
+                             theLevelsToAdd[indexOfWantedLevel]->yCord);
+        }
+}
+
+
+void BSLevelMenu::walkThroughChapters(int leftRight, int UpDown)
+{
+    ///In caz ca se afla in meniul de nivele, si jucatorul nu se misca (ceea ce inseamna ca poate alege un nivel)
+    if(currentMenu->indexOfMenu == 5 && levelChoserPlayer->canMove)
+    {
+        ///In caz ca merge la stanga
+        if(leftRight == -1)/// || UpDown == -1)
+        {
+        	int theNextIndex = levelChoserPlayer->indexOfChapterThatItIsOn - 1;
+        	///In caz ca are unde sa se duca la stanga
+			///In caz ca cel din stanga e pe acelasi Y dar cu X mai mic
+			if(theNextIndex >= 0 && chaptere[theNextIndex]->xCord < chaptere[theNextIndex + 1]->xCord
+			   && chaptere[theNextIndex]->isAvailableChapter)
+			{
+				levelChoserPlayer->indexOfChapterThatItIsOn--;
+				levelChoserPlayer->canMove = false;
+				levelChoserPlayer->isMovingLeftRight = -1;
+				levelChoserPlayer->isMovingUpDown = 0;
+			}
+			else
+				if(theNextIndex + 2 < nrOfChapters && chaptere[theNextIndex + 2]->xCord < chaptere[theNextIndex + 1]->xCord
+				   && chaptere[theNextIndex + 2]->isAvailableChapter)
+				{
+					levelChoserPlayer->indexOfChapterThatItIsOn++;
+					levelChoserPlayer->canMove = false;
+					levelChoserPlayer->isMovingLeftRight = -1;
+					levelChoserPlayer->isMovingUpDown = 0;
+				}
+			
+        }
+        else
+            ///In caz ca merge la dreapta
+            if(leftRight == 1)/// || UpDown == -1)
+			{
+				int theNextIndex = levelChoserPlayer->indexOfChapterThatItIsOn + 1;
+				///In caz ca are unde sa se duca la stanga
+				///In caz ca cel din stanga e pe acelasi Y dar cu X mai mic
+				if(theNextIndex < nrOfChapters && chaptere[theNextIndex]->xCord > chaptere[theNextIndex - 1]->xCord
+				   && chaptere[theNextIndex]->isAvailableChapter)
+				{
+					levelChoserPlayer->indexOfChapterThatItIsOn++;
+					levelChoserPlayer->canMove = false;
+					levelChoserPlayer->isMovingLeftRight = 1;
+					levelChoserPlayer->isMovingUpDown = 0;
+				}
+				else
+					if(theNextIndex - 2 >= 0 && chaptere[theNextIndex - 2]->xCord > chaptere[theNextIndex - 1]->xCord
+					   && chaptere[theNextIndex - 2]->isAvailableChapter)
+					{
+						levelChoserPlayer->indexOfChapterThatItIsOn--;
+						levelChoserPlayer->canMove = false;
+						levelChoserPlayer->isMovingLeftRight = 1;
+						levelChoserPlayer->isMovingUpDown = 0;
+					}
+			}
+			else
+				///Daca se duce in jos
+				if(UpDown == -1)/// || UpDown == -1)
+				{
+					int theNextIndex = levelChoserPlayer->indexOfChapterThatItIsOn - 1;
+					///In caz ca are unde sa se duca la stanga
+					///In caz ca cel din stanga e pe acelasi Y dar cu X mai mic
+					if(theNextIndex >= 0 && chaptere[theNextIndex]->yCord < chaptere[theNextIndex + 1]->yCord
+					   && chaptere[theNextIndex]->isAvailableChapter)
+					{
+						levelChoserPlayer->indexOfChapterThatItIsOn--;
+						levelChoserPlayer->canMove = false;
+						levelChoserPlayer->isMovingLeftRight = 0;
+						levelChoserPlayer->isMovingUpDown = -1;
+					}
+					else
+						if(theNextIndex + 2 < nrOfChapters && chaptere[theNextIndex + 2]->yCord < chaptere[theNextIndex + 1]->yCord
+						   && chaptere[theNextIndex + 2]->isAvailableChapter)
+						{
+							levelChoserPlayer->indexOfChapterThatItIsOn++;
+							levelChoserPlayer->canMove = false;
+							levelChoserPlayer->isMovingLeftRight = 0;
+							levelChoserPlayer->isMovingUpDown = -1;
+						}
+				}
+				else
+					///Daca se duce in sus
+					if(UpDown == 1)/// || UpDown == -1)
+					{
+						int theNextIndex = levelChoserPlayer->indexOfChapterThatItIsOn + 1;
+						///In caz ca are unde sa se duca la stanga
+						///In caz ca cel din stanga e pe acelasi Y dar cu X mai mic
+						if(theNextIndex < nrOfChapters && chaptere[theNextIndex]->yCord > chaptere[theNextIndex - 1]->yCord
+						   && chaptere[theNextIndex]->isAvailableChapter)
+						{
+							levelChoserPlayer->indexOfChapterThatItIsOn++;
+							levelChoserPlayer->canMove = false;
+							levelChoserPlayer->isMovingLeftRight = 0;
+							levelChoserPlayer->isMovingUpDown = 1;
+						}
+						else
+							if(theNextIndex - 2 >= 0 && chaptere[theNextIndex - 2]->yCord > chaptere[theNextIndex - 1]->yCord
+							   && chaptere[theNextIndex - 2]->isAvailableChapter)
+							{
+								levelChoserPlayer->indexOfChapterThatItIsOn--;
+								levelChoserPlayer->canMove = false;
+								levelChoserPlayer->isMovingLeftRight = 0;
+								levelChoserPlayer->isMovingUpDown = 1;
+							}
+					}
+    }
+    else
+        ///In caz ca jucatorul inca se misca ca sa ajunga la nivel
+        if(!levelChoserPlayer->canMove && currentMenu->indexOfMenu == 5)
+        {
+            int indexOfWantedChapter = levelChoserPlayer->indexOfChapterThatItIsOn;
+			
+            walkingAnimation(chaptere[indexOfWantedChapter]->xCord,
+                             chaptere[indexOfWantedChapter]->yCord);
+        }
+}
+
+
+void BSLevelMenu::walkingAnimation(float xDestination, float yDestination)
+{
+    float moveSpeed = 0.43f;
+	
+    if(levelChoserPlayer->xCord < xDestination && levelChoserPlayer->isMovingLeftRight == 1)
+    {
+        levelChoserPlayer->xCord += moveSpeed;
+        ///Daca a trecut de nivel, se intoarce la el
+        if(levelChoserPlayer->xCord > xDestination)
+        {
+            levelChoserPlayer->xCord = xDestination;
+        }
+    }
+    else if(levelChoserPlayer->xCord > xDestination && levelChoserPlayer->isMovingLeftRight == -1)
+    {
+        levelChoserPlayer->xCord -= moveSpeed;
+        ///Daca a trecut de nivel, se intoarce la el
+        if(levelChoserPlayer->xCord < xDestination)
+        {
+            levelChoserPlayer->xCord = xDestination;
+        }
+    }
+    else if(levelChoserPlayer->yCord > yDestination && levelChoserPlayer->isMovingUpDown == -1)
+    {
+        levelChoserPlayer->yCord -= moveSpeed;
+        ///Daca a trecut de nivel, se intoarce la el
+        if(levelChoserPlayer->yCord < yDestination)
+        {
+            levelChoserPlayer->yCord = yDestination;
+        }
+    }
+    else if(levelChoserPlayer->yCord < yDestination && levelChoserPlayer->isMovingUpDown == 1)
+    {
+        levelChoserPlayer->yCord += moveSpeed;
+        ///Daca a trecut de nivel, se intoarce la el
+        if(levelChoserPlayer->yCord > yDestination)
+        {
+            levelChoserPlayer->yCord = yDestination;
+        }
+    }
+    else if(levelChoserPlayer->xCord == xDestination && levelChoserPlayer->yCord == yDestination)
+    {
+        levelChoserPlayer->canMove = true;
+    }
+}
+
+
+void BSLevelMenu::chooseLevel(bool pressedEnter)
+{
+}
+
+
+
+
+
+
+
+
+
+void BSLevelMenu::getStringArray(std::string path, std::string cuvs[])
+{
+	bool isTxt =false, isXML = false;
+	if(path[path.size() - 1] == 't')//.txt
+	{
+		isTxt = true;
+	}
+	else
+		if(path[path.size() - 1] == 'l')//.xml
+		{
+			isXML = true;
+		}
+	std::string newPath = "", copyOfPath = path;
+	
+	for(int i = 0 ; i < path.size() - 4; i++)
+	{
+		newPath += path[i];
+	}
+	
+	path = newPath;
+	//std::cout<<"path: "<<path<<'\n';
+	
+	NSString *fileName = [NSString stringWithCString:path.c_str()
+											encoding:[NSString defaultCStringEncoding]];
+	//std::cout<<"pula1"<<'\n';
+	NSString *paths;
+	if(isTxt)
+	{
+		paths = [[NSBundle mainBundle] pathForResource:fileName ofType:@"txt"];
+	}
+	else
+		if(isXML)
+		{
+			paths = [[NSBundle mainBundle] pathForResource:fileName ofType:@"xml"];
+		}
+	NSString *fileTextt = [NSString stringWithContentsOfFile:paths];
+	//std::cout<<"pula2 "<<path<<' '<<isTxt<<' '<<BStoString(fileTextt)<<'\n';
+	
+	std::string bar([fileTextt cStringUsingEncoding:NSUTF8StringEncoding]);
+	//std::cout<<"pula2.5 "<<bar<<'\n';
+	
+	char theCuv[1000] = "";
+	strcpy(theCuv, bar.c_str());//= bar.c_str();
+								//std::cout<<"pula3"<<'\n';
+	
+	const char* cuvinte = strtok(theCuv, " \n");
+	
+    //std::string *bar = new std::string([fileTextt UTF8String]);
+	
+	int i = 0;
+	while(cuvinte)
+	{
+		//std::cout<<cuvinte<<'\n';
+		cuvs[i] = BStoString(cuvinte);// cuvinte);
+		
+		cuvinte = strtok(NULL, " \n");
+		i++;
+	}
+	
+	//std::cout<<bar<<'\n';
+	//NSLog(@"%@",fileTextt);
+}
+
+
+
+
